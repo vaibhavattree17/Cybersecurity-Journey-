@@ -1,0 +1,256 @@
+1. Networking Basics
+
+A network is a group of connected devices.
+
+The Internet is a massive network made up of many smaller networks.
+
+There are two main types of networks:
+
+Private Network
+
+Public Network
+
+2. IP Addressing (Internet Protocol)
+
+An IP address uniquely identifies a device on a network.
+
+IPv4 consists of:
+
+4 octets
+
+Each octet = 8 bits
+
+Total = 32 bits
+
+Example:
+
+192.168.1.10
+
+Each octet ranges from 0–255
+
+3. MAC Address (Media Access Control)
+
+A MAC address is a unique hardware address assigned to a device’s network interface.
+
+Assigned at the factory.
+
+12 hexadecimal characters.
+
+Example:
+
+A4:C3:60:85:AC:2D
+
+Can be faked using MAC Spoofing.
+
+Spoofing can bypass poorly implemented security systems that trust devices based only on MAC address.
+
+4. Network Devices
+Switch
+
+Connects multiple devices in a LAN.
+
+Keeps track of which device is connected to which port.
+
+Sends data only to the target device (unlike a hub).
+
+Router
+
+Connects different networks.
+
+Passes data between networks.
+
+Responsible for routing traffic to external networks (like the Internet).
+
+5. Network Topologies
+
+Bus Topology
+
+All devices share a single backbone cable.
+
+Ring Topology
+
+Devices are connected in a loop.
+
+Star Topology
+
+Devices are connected individually to a central device (switch or hub).
+
+6. Subnetting
+
+Subnetting divides a large network into smaller networks.
+
+Done using a Subnet Mask.
+
+Example:
+
+IP: 192.168.1.10
+
+Subnet Mask: 255.255.255.0
+
+CIDR Notation: 192.168.1.0/24
+
+/24 Meaning
+
+Total addresses: 256
+
+Usable hosts: 254
+
+1 address reserved for:
+
+Network ID
+
+1 address reserved for:
+
+Broadcast
+
+Address Types in a Subnet
+
+Network Address
+
+Host Address
+
+Broadcast Address
+
+Default Gateway
+
+7. Broadcast Address
+
+Sends data to all devices in the subnet.
+
+Reserved address.
+
+Example for 192.168.1.0/24:
+
+Broadcast: 192.168.1.255
+
+8. Default Gateway
+
+The router’s IP inside the subnet.
+
+Used when a device wants to access external networks.
+
+Example:
+
+192.168.1.1
+
+9. CIDR (Classless Inter-Domain Routing)
+
+Used to define subnet size.
+
+Examples:
+
+/24 → 254 usable hosts
+
+/25 → 126 usable hosts
+
+/26 → 62 usable hosts
+
+/27 → 30 usable hosts
+
+/28 → 14 usable hosts
+
+10. Ping (ICMP)
+
+A network troubleshooting tool.
+
+Uses ICMP (Internet Control Message Protocol).
+
+Sends Echo Request.
+
+Receives Echo Reply.
+
+Measures round-trip time.
+
+Syntax:
+
+ping <IP address>
+
+ping <website>
+
+11. ARP (Address Resolution Protocol)
+
+Maps IP address to MAC address.
+
+Stores mappings in ARP cache.
+
+Process:
+
+Device sends ARP request (broadcast).
+
+Target device replies with its MAC address.
+
+Mapping is stored for future use.
+
+12. Subnetting Security Benefits
+
+Limits attack spread.
+
+Separates sensitive systems.
+
+Controls internal access.
+
+Reduces broadcast traffic.
+
+13. Offensive Security
+
+Breaking into systems ethically.
+
+Exploiting bugs and vulnerabilities.
+
+Finding loopholes in applications.
+
+Goal: Understand attacker techniques to improve defense.
+
+Dirb
+
+Used for directory and file brute forcing.
+
+Discovers hidden folders on websites.
+
+Example:
+
+dirb http://target-site.com
+
+14. Defensive Security (Blue Teaming)
+
+Monitoring and detecting suspicious behavior.
+
+Observing network and system activity.
+
+Example:
+
+Detecting logins from unusual locations.
+
+15. Incident Response
+
+Triggered when suspicious activity is confirmed.
+
+Steps include:
+
+Containment
+
+Threat removal
+
+System restoration
+
+Returning business to normal operations
+
+16. Threat Intelligence
+
+Gathering information about:
+
+Attacker methods
+
+Targets
+
+Latest trends
+
+Helps strengthen organizational defenses.
+
+17. Vulnerability Management
+
+Identifying system flaws.
+
+Patching software regularly.
+
+Reducing attack surface proactively.
