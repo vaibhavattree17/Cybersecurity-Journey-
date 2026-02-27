@@ -1,1 +1,83 @@
+Networking Fundamentals – OSI Model, Layers, and Protocols
+1. Routing and Routing Protocols
+Routing is the process of selecting the best path for data to travel from source to destination.
+Routers choose the best path using routing algorithms.
 
+Types of Routing Protocols
+OSPF (Open Shortest Path First) – Uses shortest path algorithm.
+RIP (Routing Information Protocol) – Uses hop count to determine best route.
+
+OSI Model (Open System Interconnection Model)
+A conceptual model that standardizes communication between devices.
+
+Divides networking into 7 layers.
+Each layer has its own function.
+Data moves through layers using a process called encapsulation.
+
+OSI Layers (Top to Bottom)
+Application
+Presentation
+Session
+Transport
+Network
+Data Link
+Physical
+
+Encapsulation
+Each layer adds its own information to the data.
+This added information is called a header.
+Process ensures proper communication between devices.
+
+Physical Layer (Layer 1)
+Concerned with hardware components.
+Responsible for transmitting raw bits (1s and 0s).
+Uses electrical signals.
+Example: Ethernet cables.
+
+Data Link Layer (Layer 2)
+Handles physical addressing using MAC address.
+Responsible for error detection.
+Converts packets into frames.
+Works within a local network.
+Addressing
+IP Address → Logical address (used for communication between networks).
+MAC Address → Physical address (used inside local network).
+
+Network Layer (Layer 3)
+Uses logical addressing (IP).
+Responsible for routing data between networks.
+Determines best path for packet delivery.
+
+Transport Layer (Layer 4)
+Ensures reliable or unreliable data delivery.
+Provides end-to-end communication.
+Handles segmentation and reassembly.
+Protocols
+TCP (Transmission Control Protocol)
+Reliable connection-oriented protocol.
+Ensures data is delivered correctly.
+Uses acknowledgments and error checking.
+Slower but more secure and accurate.
+UDP (User Datagram Protocol)
+Connectionless protocol.
+Faster but does not guarantee delivery.
+Used in streaming, gaming, VoIP.
+Connection-Oriented vs Connectionless
+Connection-Oriented → Reliable, confirmation required (TCP).
+Connectionless → Faster, no confirmation (UDP).
+Advantages of TCP
+Reliable communication.
+Error detection and correction.
+Ordered data delivery.
+Suitable for important data transfer.
+Disadvantages of TCP
+Slower compared to UDP.
+More overhead due to acknowledgments.
+Key Concepts Learned
+Routing selects best path for data.
+OSI model divides networking into 7 layers.
+Encapsulation adds headers at each layer.
+IP = Logical address.
+MAC = Physical address.
+TCP = Reliable.
+UDP = Fast.
