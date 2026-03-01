@@ -1,1 +1,52 @@
+OSI Model (Session, Presentation & Application Layer)
 
+
+1. Session Layer (Layer 5)
+
+Responsible for creating and maintaining connections between computers.
+
+Establishes a session when a connection becomes active.
+
+Session remains active as long as the connection is active.
+
+Manages and controls communication between systems.
+
+Responsible for closing the connection if it remains idle.
+
+Ensures organized communication between sender and receiver.
+
+
+
+2. Presentation Layer (Layer 6)
+
+Standardization starts at this layer.
+
+Ensures data is handled in a uniform format, regardless of different software systems.
+
+Acts as a translator between systems.
+
+Translates data to and from the Application Layer.
+
+Allows communication between systems using different formats.
+
+Handles data encryption and decryption.
+
+Example: HTTPS encryption happens at this layer.
+
+
+
+3. Application Layer (Layer 7)
+
+Determines how users interact with data being sent or received.
+
+Defines protocols and rules for user interaction.
+
+Applications like email clients, web browsers, and file transfer software operate at this layer.
+
+Provides a Graphical User Interface (GUI) for users.
+
+GUI helps users interact with sent and received data.
+
+DNS (Domain Name System) works at this layer.
+
+DNS translates domain names into IP addresses.
