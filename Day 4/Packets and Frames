@@ -1,1 +1,72 @@
+OSI Model & TCP/IP Concepts – Daily Study Log
 
+
+1. Source Address 
+
+The IP address of the sending device.
+
+Helps the data know where to return (reply path).
+
+
+
+2. Destination Address
+
+The IP address of the receiving device.
+
+Helps the data know where to travel next.
+
+
+
+3. Packets and Frames
+
+Packets and frames are small pieces of data that form a large message.
+
+Large messages are divided into small packets.
+
+At the destination, packets are reconstructed into the original message.
+
+Data exchange in small pieces reduces network bottlenecking.
+
+Packets follow standard rules and protocols.
+
+Standardization is important because billions of devices are connected to the Internet.
+
+
+
+4. Encapsulation
+
+This process is called encapsulation.
+
+When talking about IP addresses, we are referring to packets.
+
+When encapsulation information is stripped away, we are talking about the frame itself.
+
+IP packets contain a header with additional information.
+
+
+
+5. TCP/IP – Three-Way Handshake
+
+Used to establish a connection between sender and receiver.
+
+Ensures both sides are ready before data transmission begins.
+
+
+
+6. Notable Headers
+
+
+Time To Live (TTL)
+
+Sets an expiry timer for packets.
+
+Prevents packets from circulating endlessly in the network.
+
+
+Checksum
+
+Provides integrity checking (TCP/IP).
+
+If data changes during transmission, the checksum value changes.
+
+If checksum does not match, the packet is considered corrupt.
