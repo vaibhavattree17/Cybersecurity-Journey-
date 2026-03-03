@@ -1,1 +1,69 @@
+TCP Header
 
+Source Port → Random port chosen by sender (0–65535).
+
+Destination Port → IP address of receiver.
+
+Sequence Number → Random initial number for data sequence.
+
+Acknowledgment Number → Next expected sequence number.
+
+Checksum → Ensures data integrity using mathematical calculation.
+
+Data → Actual transmitted bytes.
+
+Flags → Determines packet handling behaviour.
+
+
+
+Three-Way Handshake (Connection Establishment)
+
+SYN → Client sends Initial Sequence Number (ISN).
+
+SYN/ACK → Server acknowledges and sends its ISN.
+
+ACK → Client acknowledges server’s ISN.
+
+DATA → Data transfer begins after connection.
+
+FIN → Used to properly close connection.
+
+RST → Abruptly terminates connection (error case).
+
+
+
+Sequence Number Example
+
+ISN starts at 0.
+
+Next sequence = ISN + 1.
+
+Example progression:
+
+0 → 1
+
+1 → 2
+
+2 → 3
+
+
+
+Both devices must agree on sequence numbers for correct order.
+
+TCP Closing a Connection
+
+TCP closes connection after confirming all data received.
+
+Best practice: Close TCP connection properly (uses system resources).
+
+
+
+Closing process:
+
+Device sends FIN.
+
+Other device sends ACK.
+
+Other device sends FIN.
+
+Final ACK sent.
