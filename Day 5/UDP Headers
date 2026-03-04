@@ -1,1 +1,122 @@
+UDP (User Datagram Protocol)
+Overview
 
+UDP (User Datagram Protocol) is a protocol used to communicate data between devices.
+
+It sends data using datagrams.
+
+Unlike TCP, UDP does not establish a constant connection between devices.
+
+No three-way handshake occurs in UDP.
+
+
+
+General Characteristics
+
+There is no synchronization between devices before sending data.
+
+UDP is used where some data loss is acceptable.
+
+
+
+Common use cases:
+
+Video streaming
+
+Voice chat
+
+Useful when connection stability is not critical.
+
+
+
+Advantages of UDP
+
+UDP is faster than TCP.
+
+The application (user software) decides how quickly packets are sent.
+
+No continuous connection is maintained between devices.
+
+
+
+Disadvantages of UDP
+
+UDP does not verify whether data is received or not.
+
+No acknowledgement mechanism.
+
+Unstable connections can lead to poor user experience.
+
+There are no safeguards like TCP to ensure data integrity.
+
+
+
+Characteristics of UDP Packets
+
+UDP packets are simpler than TCP packets.
+
+They contain fewer headers compared to TCP.
+
+Some standard headers are still included.
+
+
+
+UDP Packet Headers
+
+
+Time To Live (TTL)
+
+Sets an expiration timer for the packet.
+
+Prevents packets from circulating in the network forever.
+
+
+Source Address
+
+The IP address of the sending device.
+
+Helps data know where it originated from.
+
+
+Destination Address
+
+The IP address of the receiving device.
+
+Tells the data where it should be delivered.
+
+Ports in UDP Communication
+
+
+Source Port
+
+Port opened by the sender to send the UDP packet.
+
+Usually randomly chosen from available ports.
+
+Range: 0 – 65535.
+
+
+Destination Port
+
+Port number of the application/service on the receiving host.
+
+Example:
+
+Web server runs on port 80.
+
+Not chosen randomly.
+
+
+Data Field
+
+Contains the actual transmitted data.
+
+Example: bytes of a file or message.
+
+
+
+UDP Communication
+
+No connection setup occurs before communication.
+
+No acknowledgement is sent during communication.
