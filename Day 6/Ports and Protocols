@@ -1,1 +1,106 @@
+Networking Basics: Ports and Standard Ports
 
+1. Ports in Networking
+
+Ports are logical points where data is exchanged between devices.
+
+A device connects to a specific port to communicate with a service.
+
+Ports act like a harbour for ships, where data enters and leaves a system.
+
+Ports control which applications or services can communicate over the network.
+
+Once a connection is established, all data transmission occurs through ports.
+
+Ports are numerical identifiers ranging from 0 to 65,535.
+
+
+
+2. Why Standard Ports Are Used
+
+Since there are 65,535 ports, it can be difficult to identify which application uses which port.
+
+To solve this problem, standard rules assign specific ports to specific protocols.
+
+This ensures consistency and compatibility across different systems and applications.
+
+Example:
+
+Web browser traffic typically uses Port 80.
+
+Because of this standard, all browsers follow the same rule when accessing web pages.
+
+
+
+3. Common Ports
+
+Ports between 0 and 1023 are known as Common Ports (or Well-Known Ports).
+
+These ports are reserved for standard protocols and important services.
+
+
+
+4. Important Ports and Protocols
+
+FTP (File Transfer Protocol)
+
+Port: 21
+
+Used for file transfer between systems.
+
+Allows uploading and downloading files from a central server.
+
+
+SSH (Secure Shell)
+
+Port: 22
+
+Used for secure remote login into systems.
+
+Works through a text-based command-line interface.
+
+
+HTTP (HyperText Transfer Protocol)
+
+Port: 80
+
+Used to access websites and transfer web content.
+
+Transfers data such as text, images, and videos.
+
+
+HTTPS (HyperText Transfer Protocol Secure)
+
+Port: 443
+
+Secure version of HTTP.
+
+Uses encryption to protect data during transmission.
+
+
+SMB (Server Message Block)
+
+Port: 445
+
+Used for file sharing and sharing devices such as printers on a network.
+
+
+RDP (Remote Desktop Protocol)
+
+Port: 3389
+
+Used to remotely access and control another computer using a graphical interface.
+
+
+
+5. Important Note
+
+Protocols usually follow standard port numbers, but applications can run on different ports if configured.
+
+Example:
+
+A web server may run on Port 8080 instead of Port 80.
+
+In such cases, the port number must be specified after the IP address or domain using a colon (:).
+
+Example:
