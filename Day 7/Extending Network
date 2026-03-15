@@ -1,0 +1,53 @@
+# Day XX – Introduction to Port Forwarding
+
+## Introduction to Port Forwarding
+
+* **Port forwarding** allows external devices on the internet to access services inside a private network.
+* Without port forwarding, services such as **web servers** are only accessible within the same **local network (intranet)**.
+* Devices inside the local network can access the internal server directly.
+* Devices outside the network cannot access it by default.
+
+## Example Scenario
+
+* A server with private IP **192.168.1.10** runs a **web server on port 80**.
+* Devices inside the same network can connect directly to this server.
+* External devices cannot access it unless port forwarding is configured.
+
+## Port Mapping
+
+* Port forwarding maps a **public IP and port** to a **private IP and port** inside the network.
+* This configuration is done on the **router**.
+
+### Example Mapping
+
+* **Public IP:** 87.62.51.70 : Port 80
+* **Private IP:** 192.168.1.10 : Port 80
+
+## How It Works
+
+* External users connect using the **public IP address** of the network.
+* The **router receives the incoming request**.
+* The router then **forwards the traffic to the internal server**.
+
+## Purpose
+
+* Allows external networks to access services hosted inside an internal network.
+* Makes internal servers accessible from the internet.
+
+## Port Forwarding vs Firewall
+
+* **Port Forwarding**
+
+  * Opens specific ports for incoming traffic.
+  * Redirects that traffic to a specific device inside the network.
+
+* **Firewall**
+
+  * Controls whether traffic is allowed or blocked.
+  * Applies security rules to incoming and outgoing traffic.
+
+## Key Points
+
+* Port forwarding is configured on **network routers**.
+* It is used to expose internal services to the internet.
+* Firewalls and port forwarding serve **different purposes** but often work together.
