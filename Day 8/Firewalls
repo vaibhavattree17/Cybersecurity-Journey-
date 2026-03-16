@@ -1,0 +1,28 @@
+# Day 8 – Networking Concepts (Firewalls, VPN, Tunneling, IPsec, OSI, VLAN)
+
+## 1. Firewall
+
+* A **network security device** that monitors and controls incoming and outgoing network traffic.
+* Acts as a **barrier between a trusted internal network and untrusted external networks**.
+* Uses **predefined security rules** to allow or block traffic.
+* Can be **hardware-based or software-based**.
+* Helps protect systems from **unauthorized access and cyber attacks**.
+
+### Types of Firewalls
+
+* **Packet Filtering Firewall**
+
+  * Filters packets based on **source IP, destination IP, ports, and protocol**.
+  * One of the **earliest firewall techniques**.
+
+* **Stateful Firewall**
+
+  * Monitors **active connections**.
+  * Allows packets that belong to a **valid established session**.
+  * More secure than basic packet filtering.
+
+* **Application Firewall**
+
+  * Operates at the **application layer**.
+  * Inspects **traffic related to specific applications**.
+
