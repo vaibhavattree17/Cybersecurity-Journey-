@@ -1,0 +1,32 @@
+## . OSI Model and Switching
+
+* Network communication follows the **OSI model layers**.
+* Switches operate mainly at **Layer 2 (Data Link Layer)**.
+* Forward frames using **MAC addresses**.
+
+### MAC Address
+
+* A **unique hardware address** assigned to network devices.
+* Used by switches to **identify devices in a network**.
+
+## 7. VLAN (Virtual Local Area Network)
+
+* Divides one physical network into **multiple logical networks**.
+* Devices can **communicate within the same VLAN even if physically separated**.
+* Improves **network security and traffic management**.
+
+### Advantages of VLAN
+
+* **Reduces broadcast traffic**
+* **Improves network performance**
+* **Provides better security**
+* Allows **logical grouping of devices**
+
+## 8. Summary
+
+* Firewalls protect networks by **filtering traffic**.
+* VPN provides **secure communication over the internet**.
+* Encryption ensures **data confidentiality**.
+* Tunneling allows **secure data transfer across networks**.
+* IPsec secures **IP communications**.
+* VLAN divides networks into **logical segments for efficiency and security**.
