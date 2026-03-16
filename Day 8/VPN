@@ -1,1 +1,51 @@
+## . VPN (Virtual Private Network)
+
+* Technology that **creates a secure encrypted connection over a public network (internet)**.
+* Allows users to **access a private network remotely**.
+* Ensures **secure data transmission** between users and networks.
+* Commonly used by **businesses for remote work and secure communication**.
+
+### Example Network Setup
+
+* Network #1: Office local network
+* Network #2: Another office network
+* Network #3: User devices connected through a **VPN tunnel**
+
+### Benefits of VPN
+
+* Connects **different locations securely**.
+* Enables **remote access to private networks**.
+* Protects data using **encryption**.
+
+## 3. Encryption in VPN
+
+* VPN uses **encryption to protect transmitted data**.
+* Data is **converted into unreadable form** before transmission.
+* Only the **authorized receiver can decrypt and read the data**.
+
+## 4. VPN Technologies
+
+### PPTP (Point-to-Point Tunneling Protocol)
+
+* Allows **PPP data to travel across networks**.
+* One of the **earliest tunneling protocols**.
+* Easy to set up but **less secure compared to modern protocols**.
+
+### IPsec (Internet Protocol Security)
+
+* Provides **security at the IP layer**.
+* Encrypts and authenticates **IP packets**.
+* Protects **data integrity, confidentiality, and authentication**.
+
+## 5. Tunneling
+
+* Technique used to **encapsulate one protocol inside another protocol**.
+* Allows data to **travel securely across networks**.
+
+### Example
+
+* Data from one network is **encrypted and encapsulated**.
+* Sent through the **internet inside a secure tunnel**.
+* Decrypted at the **destination network**.
+
 
