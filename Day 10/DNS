@@ -1,0 +1,117 @@
+# DNS Fundamentals
+
+## Overview
+- DNS (Domain Name System) helps computers communicate using domain names instead of IP addresses
+- Humans use domain names, but machines use IP addresses
+- Example IP address: 104.26.10.229
+
+## IPv4 Address
+- Consists of 4 sets of numbers (0–255)
+- Separated by dots (.)
+- Example: 104.26.10.229
+- Hard for humans to remember
+
+## Domain Hierarchy
+- Domain names are organized in a hierarchical structure
+
+### Levels
+- Root Domain
+- Top Level Domain (TLD)
+- Second Level Domain
+
+## Top Level Domain (TLD)
+- Rightmost part of a domain name
+- Example: tryhackme.com → .com is TLD
+
+### Types of TLDs
+- gTLD (Generic Top Level Domain)
+  - .com → commercial
+  - .org → organization
+  - .edu → educational
+  - .gov → government
+- ccTLD (Country Code Top Level Domain)
+  - .ca → Canada
+  - .co.uk → United Kingdom
+
+## Second Level Domain
+- Name before the TLD
+- Example: tryhackme.com → tryhackme is second level domain
+
+### Rules
+- Max 63 characters
+- Can contain letters (a–z), numbers (0–9), and hyphens (-)
+- Cannot start or end with a hyphen
+- Cannot contain consecutive hyphens
+
+## Subdomain
+- Appears before the second level domain
+- Example: admin.tryhackme.com → admin is subdomain
+
+### Rules
+- Separated using dots (.)
+- Follows same rules as second level domain
+- Max 63 characters
+- Multiple subdomains can exist
+- Example: test.admin.tryhackme.com
+
+## Domain Length
+- Total domain length must not exceed 253 characters
+
+# DNS Record Types
+
+## A Record
+- Maps domain to IPv4 address
+- Example: 104.26.10.229
+
+## AAAA Record
+- Maps domain to IPv6 address
+- Example: 2606:4700:20::681a:be5
+
+## CNAME Record
+- Maps domain to another domain name
+- Requires additional DNS lookup
+
+## MX Record
+- Specifies mail servers for a domain
+- Includes priority value
+- Used for email routing
+
+## TXT Record
+- Stores text-based data
+- Used for:
+  - Email authentication (SPF, DKIM)
+  - Domain verification
+
+# DNS Request Process
+
+## Steps
+1. User makes a DNS request
+2. Computer checks local cache
+3. If not found, request sent to recursive DNS server
+
+## Recursive DNS Server
+- Usually provided by ISP
+- Has its own cache
+- If found → returns result
+- If not → starts lookup process
+
+## Query Flow
+
+### Root DNS Server
+- Directs to correct TLD server
+
+### TLD Server
+- Provides information about authoritative server
+
+### Authoritative DNS Server
+- Stores actual DNS records
+- Returns final IP address
+
+# Response Path
+- Response sent back to recursive DNS server
+- Cached for future use
+- Returned to client
+
+## TTL (Time to Live)
+- Time (in seconds) DNS response is cached
+- Reduces repeated DNS requests
