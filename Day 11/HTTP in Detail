@@ -1,1 +1,191 @@
+# HTTP & HTTPS Fundamentals
 
+## HTTP (HyperText Transfer Protocol)
+- Used when you visit websites
+- Developed by Tim Berners-Lee (1989–1991)
+- Set of rules for communication between client (browser) and server
+- Transfers data like:
+  - HTML
+  - Images
+  - Videos
+- Data is not encrypted (insecure)
+
+## HTTPS (HyperText Transfer Protocol Secure)
+- Secure version of HTTP
+- Data is encrypted during transmission
+- Prevents attacks like:
+  - Reading data (confidentiality)
+  - Modifying data (integrity)
+- Ensures authentication (correct server)
+
+# URL (Uniform Resource Locator)
+
+## Definition
+- Instruction to access a resource on the internet
+- Tells browser how and where to get data
+
+## Components of URL
+
+### Scheme (Protocol)
+- Defines protocol (HTTP, HTTPS, FTP)
+
+### User Info
+- Username and password (rarely used)
+
+### Host (Domain/IP)
+- Server address (e.g., example.com)
+
+### Port
+- Connection port
+- Default:
+  - 80 → HTTP
+  - 443 → HTTPS
+
+### Path
+- Location of resource on server
+
+### Query String
+- Extra data sent (e.g., ?id=1)
+
+### Fragment
+- Specific section of a page (#section)
+
+# Making an HTTP Request
+
+## Request Structure
+- Example:
+  - GET / HTTP/1.1
+
+## Request Parts
+
+### Request Method
+- GET → Fetch data
+
+### Path
+- / → Homepage
+
+### HTTP Version
+- HTTP/1.1, HTTP/2
+
+### Headers (Extra Info)
+- Host → Target website
+- User-Agent → Browser info
+- Referer → Previous page URL
+
+### Blank Line
+- Indicates end of request
+
+# Example Request Breakdown
+
+- Line 1 → GET request using HTTP/1.1
+- Line 2 → Host (domain)
+- Line 3 → User-Agent (browser info)
+- Line 4 → Referer (previous page)
+- Line 5 → Blank line (end of request)
+
+# HTTP Response
+
+## Definition
+- Server replies with data + status
+
+## Status Line
+- Example:
+  - HTTP/1.1 200 OK
+- 200 → Success
+
+## Response Headers
+- Server → Server software
+- Date → Response time
+- Content-Type → Type of data (HTML, JSON)
+- Content-Length → Size of data
+
+## Body
+- Actual content (HTML page)
+
+## Blank Line
+- Marks end of headers
+
+# HTTP Methods
+
+- GET → Read
+- POST → Create
+- PUT → Update
+- DELETE → Delete
+
+# HTTP Status Codes
+
+## Categories
+
+- 100–199 → Informational
+- 200–299 → Success
+- 300–399 → Redirection
+- 400–499 → Client Errors
+- 500–599 → Server Errors
+
+## Common Status Codes
+
+### Success
+- 200 OK → Request successful
+- 201 Created → New resource created
+
+### Redirection
+- 301 Moved Permanently → Resource moved permanently
+- 302 Found → Temporary redirect
+
+### Client Errors
+- 400 Bad Request → Invalid request
+- 401 Unauthorized → Authentication required
+- 403 Forbidden → Access denied
+- 404 Not Found → Resource not found
+- 405 Method Not Allowed → Wrong HTTP method
+
+### Server Errors
+- 500 Internal Server Error → Server failed
+- 503 Service Unavailable → Server overloaded/maintenance
+
+# HTTP Headers
+
+## Definition
+- Extra data sent with requests and responses
+- Helps client and server communicate properly
+
+## Common Request Headers
+
+- Host → Website name
+- User-Agent → Browser name + version
+- Content-Length → Size of data sent
+- Accept-Encoding → Compression supported (gzip, etc.)
+- Cookie → Stores user data
+
+## Common Response Headers
+
+- Set-Cookie → Sends cookies to browser
+- Cache-Control → Defines caching rules
+- Content-Type → Type of response data
+- Content-Encoding → Compression used
+
+# Cookies
+
+## Definition
+- Small pieces of data stored in browser
+
+## Working
+
+- Client sends request
+- Server responds with Set-Cookie
+- Browser stores cookie
+- Future requests send cookie back
+- Server पहचान… oops sorry… recognizes user 😏
+
+## Key Points
+
+- Helps:
+  - Identify user
+  - Store preferences
+  - Maintain login sessions
+- Data is:
+  - Not stored as plain passwords
+  - Stored as tokens (random strings)
+- Used mainly for:
+  - Authentication
+  - Session management
