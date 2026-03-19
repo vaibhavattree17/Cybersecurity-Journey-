@@ -1,0 +1,174 @@
+# Web Fundamentals & Architecture
+
+## How Web Request Works
+- Browser sends request to website
+- Needs server IP address → uses DNS
+
+## Process Flow
+- DNS resolves domain → gives IP
+- Browser connects to web server
+- Uses HTTP protocol for communication
+
+## Key Components
+- DNS → finds server
+- HTTP → communication
+- Server → sends data
+- Browser → displays content
+
+---
+
+# Load Balancer
+
+## Purpose
+- Handles high traffic websites
+- Receives request → forwards to one of multiple servers
+
+## Algorithms
+- Round Robin → sends requests one by one
+- Weighted → sends more traffic to powerful servers
+
+## Features
+- Performs health checks
+- Stops sending traffic to non-working servers
+
+---
+
+# CDN (Content Delivery Network)
+
+## Function
+- Stores static files
+- CSS, JS, images, videos
+
+## Benefits
+- Uses nearest server to user
+- Reduces latency
+- Reduces load on main server
+
+---
+
+# Databases
+
+## Purpose
+- Store and retrieve data
+- Web server communicates with database
+
+## Examples
+- MySQL
+- MSSQL
+- MongoDB
+
+## Range
+- Simple files → complex systems
+
+---
+
+# WAF (Web Application Firewall)
+
+## Function
+- Sits between user request and web server
+
+## Protection
+- Attacks
+- DDoS
+
+## Features
+- Detects malicious requests
+- Checks if request is from real user or bot
+- Rate limiting (limits requests per IP)
+- Blocks suspicious traffic
+
+---
+
+# Web Server
+
+## Definition
+- Software that listens for incoming requests
+- Uses HTTP to send web content
+
+## Examples
+- Apache
+- Nginx
+- IIS
+- Node.js
+
+## File Locations
+- Linux → /var/www/html
+- Windows → C:\inetpub\wwwroot
+
+---
+
+# Virtual Hosts
+
+## Concept
+- One server can host multiple websites
+
+## Working
+- Uses hostname from HTTP headers
+- If match found → correct website shown
+- If no match → default website shown
+
+## Features
+- Each site can have different root directory
+- No strict limit on number of websites
+
+---
+
+# Static vs Dynamic Content
+
+## Static Content
+- Does not change
+- Examples:
+  - HTML
+  - CSS
+  - JS
+  - Images
+- Same content delivered to all users
+
+## Dynamic Content
+- Changes based on user input/request
+- Examples:
+  - Blog updates
+  - Search results
+
+---
+
+# Frontend vs Backend
+
+## Frontend
+- What user sees in browser
+
+## Backend
+- Processing happens behind the scenes
+- Not visible to users
+
+---
+
+# Backend Languages
+
+## Purpose
+- Logic
+- Database interaction
+- Data processing
+
+## Examples
+- PHP
+- Python
+- Ruby
+- Node.js
+- Perl
+
+---
+
+# Example (PHP Request Flow)
+
+## Input
+- index.php?name=adar
+
+## Code
+- echo $_GET["name"];
+
+## Output
+- Hello adar
+
+## Note
+- User only sees output, not backend code
