@@ -1,0 +1,162 @@
+# Day X - Web Basics, HTML, JS & Security
+
+## 1. How Website Works
+- Browser sends a request to web server
+- Request travels through the Internet
+- Server processes the request
+- Server sends response back
+- Browser uses data to display webpage
+
+## 2. Key Components of Website
+
+### Frontend (Client Side)
+- What user sees in browser
+- Responsible for:
+  - UI (design, layout)
+  - Interaction (buttons, forms)
+- Built using:
+  - HTML
+  - CSS
+  - JavaScript
+
+### Backend (Server Side)
+- Runs on server
+- Responsible for:
+  - Processing requests
+  - Handling logic
+  - Sending responses
+
+### Example Backend Tasks
+- User authentication
+- Database operations
+
+## 3. Important Points
+- Web server is a computer on the Internet
+- Handles user requests
+- Communication happens via HTTP/HTTPS
+- Flow: Request → Process → Response
+
+## 4. HTML (HyperText Markup Language)
+- Used to build structure of webpages
+- Works with:
+  - HTML → Structure
+  - CSS → Styling
+  - JavaScript → Interactivity
+
+## 5. Basic HTML Structure
+- Standard format for every webpage
+- <!DOCTYPE html> defines HTML5 document
+
+### Main Tags
+- <html> → Root element
+- <head> → Contains metadata (title, etc.)
+- <body> → Visible content of webpage
+
+## 6. Common HTML Tags
+- <h1> → Heading
+- <p> → Paragraph
+- <button> → Buttons
+- <img> → Images
+- <ul>, <li> → Lists
+
+## 7. Attributes in HTML
+- Provide extra information to tags
+
+### Common Attributes
+- class → Used for styling multiple elements
+- id → Unique identifier for element
+- src → Specifies image source
+
+- Elements can have multiple attributes
+
+## 8. Key Points
+- HTML uses tags to structure content
+- Only content inside <body> is visible
+- id must be unique, class can be reused
+- View source using Inspect / View Page Source
+
+## 9. JavaScript (JS)
+- Makes webpages interactive
+- Without JS → pages are static
+- Can update content in real time
+
+### Usage
+- Change styles
+- Handle events (click, hover)
+- Show animations
+
+## 10. Adding JavaScript
+
+### Inside HTML
+- <script> </script>
+
+### External File
+- <script src="file.js"></script>
+
+### Example
+- document.getElementById("demo").innerHTML = "Hack the planet";
+
+- Changes content of element with given id
+
+## 11. Events
+- Trigger JavaScript on user actions
+
+### Examples
+- onclick
+- onhover
+
+## 12. Sensitive Data Exposure
+- Occurs when website exposes sensitive data
+- Usually found in frontend code (HTML/JS)
+
+### Causes
+- Developer forgets to remove:
+  - Login credentials
+  - Hidden links
+  - Sensitive data
+
+### Where to Find
+- View page source
+- Check:
+  - HTML
+  - JS
+  - Comments
+
+### Impacts
+- Login to application
+- Access restricted areas
+- Access backend configuration
+
+## 13. HTML Injection
+- Occurs when input is not sanitized
+- Attacker injects HTML/JS into webpage
+
+### Cause
+- No input validation
+- Input directly displayed on page
+
+### How It Works
+- User enters input
+- Input used in JS to display on page
+- No sanitization → executes as HTML/JS
+
+### Example Flow
+- User enters name
+- JS displays: "Welcome + name"
+- If input = <h2>Hacked</h2>
+- It renders as HTML
+
+## 14. Vulnerability
+- User can control page content and behavior
+- Can inject:
+  - HTML
+  - JavaScript
+
+### Key Rule
+- Never trust user input
+
+## 15. Prevention
+- Sanitize / validate all inputs
+- Remove or escape:
+  - HTML tags
+  - Scripts
