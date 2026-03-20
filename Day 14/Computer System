@@ -1,1 +1,117 @@
+# Inside a Computer System
 
+## Introduction
+- To secure a system, we must first understand it.
+- A computer system is like a castle → need to know structure and access points.
+- Focus on basic components and their interaction.
+- No deep technical knowledge required (fundamentals only).
+
+## Core Components of a Computer
+
+### Motherboard
+- Backbone of the system
+- Connects all components
+
+### CPU (Central Processing Unit)
+- Brain of the computer
+- Executes instructions
+
+### RAM (Random Access Memory)
+- Short-term memory
+- Stores data temporarily while running
+
+### Storage (HDD / SSD)
+- Long-term memory
+- Stores OS, files, and data
+
+### GPU (Graphics Processing Unit)
+- Handles visual output
+- Processes graphics
+
+### PSU (Power Supply Unit)
+- Supplies power to all components
+
+## Boot Process
+
+### Step 1: Power On
+- Power button pressed
+- Signal sent to PSU
+- System receives power
+
+### Step 2: Firmware Starts (UEFI / BIOS)
+- Initializes hardware components
+- UEFI replaces older BIOS
+
+### Step 3: POST (Power-On Self Test)
+- Checks hardware functionality
+- Ensures all components are working
+
+### Step 4: Select Boot Device
+- Chooses device (HDD / SSD) to load OS
+- Based on priority list
+
+### Step 5: Bootloader Starts
+- Loads operating system into RAM
+- OS takes control of system
+
+## Key Points
+- All components work together to run a system
+- Boot process is essential for startup
+- Understanding components helps in cybersecurity
+- Boot process can be targeted by attackers
+
+# Types of Computers
+
+## Introduction
+- Computers are not limited to laptops and phones
+- Found in everyday devices (fridge, door, etc.)
+- Can be used directly or indirectly
+- Includes IoT devices and embedded systems
+
+## Types
+
+### Laptop
+- Portable
+- Used for everyday tasks
+
+### Desktop
+- Fixed location
+- Better cooling and performance
+
+### Workstation
+- High performance
+- Used for professional/precision tasks
+
+### Server
+- No dedicated screen/keyboard
+- Provides services over a network
+
+## Device-Based Computers
+
+### Smartphone
+- Pocket-sized computer
+- Optimized for battery and connectivity
+
+### Tablet
+- Touch-based device
+- Larger screen than smartphone
+
+### IoT Devices
+- Connected to network
+- Single-purpose devices
+- Example: smart doorbell, thermostat
+
+## Embedded Systems
+- Built inside other devices
+- Perform specific tasks
+- Examples: coffee machine, automatic doors
+
+## IoT vs Embedded
+
+### IoT
+- Connected to network
+- Sends/receives data
+
+### Embedded
+- May not be connected
+- Works silently inside device
