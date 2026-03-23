@@ -1,0 +1,92 @@
+# Client-Server and Web Communication
+
+## Introduction
+- Earlier computers worked independently (no communication).
+- Networks enabled data sharing and communication.
+- Early networks: ARPANET, CYCLADES, NPL.
+- Modern networks evolved from these systems.
+- Systems now provide services to each other.
+
+## Key Concepts
+- Client: Initiates request.
+- Server: Provides requested service.
+- Network: Medium for communication.
+- Protocol: Rules for communication.
+- Port: Identifies specific service.
+- DNS: Resolves domain names to IP.
+
+## Client and Server
+- Client initiates request.
+- Server processes and responds.
+- Example:
+  - Browser = Client
+  - Website host = Server
+- Client always starts communication.
+
+## Request and Response
+- Client sends request to server.
+- Server sends response back.
+- If error → server returns error message.
+- Example:
+  - Request → Ask for webpage
+  - Response → Webpage or error
+
+## Protocol
+- Defines rules for communication.
+- Includes:
+  - Commands (e.g., GET)
+  - Structure of request
+  - Syntax / language
+  - Response types
+  - Error handling
+
+## Port
+- Identifies a specific service on a server.
+- Required to access correct service.
+- One server → multiple services → multiple ports.
+- Example: Different doors = different ports.
+
+## DNS (Domain Name System)
+- Converts domain name → IP address.
+- Works like GPS.
+- IP address = actual location of server.
+
+## HTTP (HyperText Transfer Protocol)
+- Used for web communication.
+- Stateless → no memory of previous requests.
+- Each request handled independently.
+- Sessions (cookies/tokens) used for login persistence.
+
+## HTTP Methods
+- GET → Retrieve data
+- POST → Send data
+- PUT → Update data
+- DELETE → Remove data
+- PATCH → Partial update
+- HEAD → Headers only
+- OPTIONS → Available methods
+- CONNECT / TRACE → Debugging
+
+## GET Method
+- Used to retrieve data from server.
+- Example: GET /index.html
+- Browser automatically sends GET requests.
+
+## HTTP Request Structure
+- Scheme → HTTP / HTTPS
+- Host → Server name
+- Path → Requested file
+- Address → IP address
+- Status → Success / Failure (e.g., 200 OK)
+
+## HTTP Response Structure
+- Two parts:
+  - Response Header → Metadata
+  - Response Body → Actual content (HTML, JSON, etc.)
+
+## Summary
+- Client sends request, server responds.
+- Communication follows protocols (HTTP).
+- DNS resolves domain to IP.
+- Ports identify services.
+- HTTP is stateless but sessions maintain continuity.
