@@ -13,7 +13,7 @@
 
 - Rule: **One server = One application**
 
-### Problems:
+### Problems: 
 - High cost (hardware, electricity, maintenance)  
 - Low utilization (only ~5–20% usage)  
 - Slow deployment (takes days/weeks)  
