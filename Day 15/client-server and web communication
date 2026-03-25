@@ -29,7 +29,7 @@
 - If error → server returns error message.
 - Example:
   - Request → Ask for webpage
-  - Response → Webpage or error
+  - Response → Webpage or error 
 
 ## Protocol
 - Defines rules for communication.
