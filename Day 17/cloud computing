@@ -1,1 +1,106 @@
+# Cloud Computing Notes
+
+## 1. What is Cloud Computing
+
+* Cloud computing is the delivery of computing services over the internet.
+* Instead of using local computers, resources are accessed online.
+* It makes applications:
+
+  * More accessible
+  * More reliable
+  * Easy to scale
+
+## 2. Why Cloud is Needed
+
+* Solves problems like high latency for global users.
+* Overcomes limited hardware capacity.
+* Reduces system downtime.
+* Enables global access with better performance.
+
+## 3. Evolution of Services to Cloud
+
+### Physical Servers
+
+* Located in company buildings.
+* Expensive and hard to scale.
+
+### Virtualization
+
+* Multiple virtual machines on one server.
+* Better resource usage.
+
+### Automation and Remote Management
+
+* Servers managed over the internet.
+* Faster deployment.
+
+### Cloud Computing
+
+* On-demand resources.
+* No hardware ownership required.
+
+### Modern Cloud
+
+* Global providers like AWS, Azure, GCP.
+
+## 4. Benefits of Cloud Computing
+
+### Scalability
+
+* Increase or decrease resources as needed.
+
+### On-Demand Self Service
+
+* Create or remove resources instantly.
+
+### Pay-as-you-use
+
+* No upfront cost.
+
+### Security
+
+* Strong protection provided by cloud providers.
+
+### High Availability
+
+* Systems remain online even during failures.
+
+### Global Access
+
+* Access services from anywhere.
+
+## 5. Types of Cloud (Deployment Models)
+
+### Public Cloud
+
+* Available to everyone.
+* Cost-effective and scalable.
+
+### Private Cloud
+
+* Used by a single organization.
+* More control and security.
+
+### Hybrid Cloud
+
+* Combination of public and private cloud.
+* Balance of security and scalability.
+
+## 6. Cloud Service Models
+
+### IaaS (Infrastructure as a Service)
+
+* Provides virtual machines, storage, networking.
+* User manages OS and applications.
+
+### PaaS (Platform as a Service)
+
+* Provider manages infrastructure and OS.
+* User focuses on application development.
+
+### SaaS (Software as a Service)
+
+* Complete software over the internet.
+* No management required.
+* Examples: Gmail, Zoom
 
