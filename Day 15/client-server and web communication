@@ -6,7 +6,7 @@
 - Early networks: ARPANET, CYCLADES, NPL.
 - Modern networks evolved from these systems.
 - Systems now provide services to each other.
-
+ 
 ## Key Concepts
 - Client: Initiates request.
 - Server: Provides requested service.
