@@ -11,7 +11,7 @@
  
 ## 2. Traditional Approach   
  
-- Rule: **One server = One application**    
+- Rule: **One server = One application**     
  
 ### Problems: 
 - High cost (hardware, electricity, maintenance)   
