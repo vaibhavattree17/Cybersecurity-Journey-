@@ -1,0 +1,120 @@
+# Operating Systems (OS)
+
+## Definition
+- Core software between users, applications, and hardware
+- Manages system resources and operations
+
+## Layers of OS
+- User → Application → OS → Hardware
+- OS acts as the resource manager
+
+## Privilege Levels
+- Kernel Space: Full access to hardware
+- User Space: Limited access (uses system calls)
+
+## Core Responsibilities
+
+### Process Management
+- Runs and schedules programs
+
+### Memory Management
+- Allocates RAM to processes
+
+### File System Management
+- Manages files and directories
+
+### I/O Management
+- Controls input/output devices
+
+### Device Management
+- Handles drivers and hardware interaction
+
+## Security Functions
+- Authentication: Login verification
+- Permissions: Access control
+- Isolation: Processes separated from each other
+
+# System Interfaces
+
+## GUI (Graphical User Interface)
+- Visual interface (icons, windows)
+
+## CLI (Command Line Interface)
+- Text-based commands
+
+# Types of Operating Systems
+- Desktop: Windows, macOS, Linux
+- Server: Backend systems
+- Mobile: Android, iOS
+- Embedded: IoT devices
+- Cloud/VM: Virtual systems
+
+# Key Concepts
+
+## System Protection
+- Prevents unauthorized access
+
+## Internet Connection
+- OS connects and manages networks
+
+## OS as Resource Manager
+- Allocates CPU, memory, devices
+
+## Multi-user OS
+- Different users can use system simultaneously
+
+# Windows Basics
+
+## Desktop Components
+- Desktop workspace
+- Taskbar: Apps, settings, power
+- Start Menu: Quick access
+- Notification Tray: System info
+
+## Built-in Tools
+
+### File Explorer
+- Manage files/folders (create, delete, rename)
+
+### Notepad
+- Basic text editor
+
+### Settings / Control Panel
+- System configuration
+
+# File System
+
+## Structure
+- Hierarchical (folders inside folders)
+
+## Common Paths
+- Desktop
+- Documents
+- Downloads
+
+## File Operations
+- Copy
+- Move
+- Delete
+- Rename
+
+# User Accounts
+- Standard User: Normal usage
+- Administrator: Full control
+
+# System Information
+- Access via About your PC
+- Shows:
+  - Device name
+  - RAM
+  - OS version
+
+# Firewall
+
+## Definition
+- Controls incoming and outgoing network traffic
+
+## Profiles
+- Domain
+- Private
+- Public
