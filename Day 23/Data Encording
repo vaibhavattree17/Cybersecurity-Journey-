@@ -1,0 +1,139 @@
+# Data Encoding
+
+## Basic Concept
+- Computers store everything as **numbers (binary)**
+- Encoding = mapping between:
+  - Characters (letters, symbols)
+  - Numbers (binary values)
+
+---
+
+# ASCII (American Standard Code for Information Interchange)
+
+## Basics
+- Early character encoding standard
+- Uses **7 bits**
+- Total characters = **128 (0–127)**
+
+## Includes
+- English letters (A–Z, a–z)
+- Digits (0–9)
+- Control characters (e.g., newline)
+
+---
+
+## Example
+- 'A' → 65 (decimal)
+- 'a' → 97 (decimal)
+
+---
+
+## ASCII Example (Text)
+- Text: "Try Hack Me"
+- Stored as binary sequence
+- Also represented in:
+  - Decimal
+  - Hex
+
+---
+
+# Limitations of ASCII
+- Supports only English language
+- Limited to 128 characters
+- Cannot represent:
+  - Other languages
+  - Emojis
+  - Special symbols
+
+---
+
+# Extended ASCII
+
+## Basics
+- Uses **8 bits**
+- Total characters = **256**
+
+## Features
+- Adds extra symbols
+- Supports more characters than ASCII
+
+---
+
+# Unicode
+
+## Why Unicode?
+- ASCII was not enough
+- Needed support for all languages
+
+## Features
+- Universal encoding standard
+- Assigns unique code point to every character
+- Supports:
+  - All languages
+  - Symbols
+  - Emojis
+
+---
+
+## Example
+- 'A' → U+0041
+- 'Ω' → U+03A9
+- '😀' → U+1F600
+
+---
+
+# UTF Encodings
+
+## UTF-8
+- Most commonly used
+- Uses **1 to 4 bytes**
+- Compatible with ASCII
+- Efficient for storage and web
+
+## UTF-16
+- Uses **2 or 4 bytes**
+- Used in some systems
+
+## UTF-32
+- Uses **4 bytes**
+- Simple but less memory efficient
+
+---
+
+# Comparison
+
+## ASCII
+- 7-bit
+- 128 characters
+
+## Extended ASCII
+- 8-bit
+- 256 characters
+
+## Unicode
+- Variable length
+- Millions of characters
+
+---
+
+# Key Points
+- Encoding = mapping characters ↔ numbers
+- ASCII → basic English only
+- Unicode → global standard
+- UTF-8 → most widely used encoding
+
+---
+
+# Problems (If Encoding Mismatch)
+- Text appears as:
+  - Weird symbols
+  - Garbage text (mojibake)
+
+---
+
+# Summary
+- Encoding → represents characters as numbers
+- ASCII → 7-bit, limited
+- Extended ASCII → 8-bit, more characters
+- Unicode → universal encoding
+- UTF-8 → most used encoding format
