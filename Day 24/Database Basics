@@ -1,0 +1,110 @@
+# Database Basics
+
+## Definition
+- A database is a place where a computer stores information in an organized way
+- Works like a digital notebook
+- Allows fast searching, sorting, and counting of data
+- Data is stored in tables
+
+---
+
+# Tables
+- A table organizes data into rows and columns
+- Similar to a spreadsheet
+
+---
+
+# Columns
+- Column = title at the top of the table
+- Each column stores one type of data
+- Example: drink, price, time
+
+---
+
+# Rows
+- Rows go across the table
+- Each row represents one complete record
+- Example: one row = one order
+
+---
+
+# Key Points
+- One column → one type of data
+- One row → full information about one entry
+- Adding a record → adds a new row
+- Deleting a record → removes that row
+
+---
+
+# SQL (Structured Query Language)
+
+## Purpose
+- Used to interact with a database
+- Helps retrieve data quickly
+- Queries usually display data (do not modify it)
+
+---
+
+# Common SQL Commands
+
+## SELECT
+- Used to choose what data to display
+
+### Example
+- SELECT * FROM orders;
+- Selects all columns
+
+---
+
+## FROM
+- Specifies which table to get data from
+
+---
+
+## WHERE
+- Filters data based on condition
+- Returns only matching rows
+
+### Example
+- SELECT * FROM orders WHERE drink = 'coffee';
+
+---
+
+## ORDER BY
+- Sorts the result
+
+### Default
+- Ascending (lowest to highest)
+
+### Descending
+- Use DESC
+
+### Example
+- SELECT * FROM orders ORDER BY price;
+- SELECT * FROM orders ORDER BY price DESC;
+
+---
+
+# Basic SQL Queries
+
+## Show All Data
+- SELECT * FROM orders;
+
+## Show Specific Columns
+- SELECT drink, price FROM orders;
+
+## Filter Data
+- SELECT * FROM orders WHERE drink = 'coffee';
+
+## Sort Data (Ascending)
+- SELECT * FROM orders ORDER BY price;
+
+## Sort Data (Descending)
+- SELECT * FROM orders ORDER BY price DESC;
+
+---
+
+# Combine Filter + Sort
+- SELECT * FROM orders 
+  WHERE drink = 'coffee' 
+  ORDER BY price DESC;
