@@ -1,0 +1,78 @@
+# Operating System Security
+
+## Hardware
+- Physical components (CPU, RAM, keyboard, screen, storage devices)
+
+## OS Role
+- Acts as a bridge between hardware and software
+
+## Application
+- Cannot directly use hardware
+- Uses OS to interact with hardware
+
+---
+
+# Examples of Operating Systems
+- Desktop: Windows
+- Mobile: Android, iOS
+- Server: Linux, Windows Server
+
+---
+
+# Why OS Security is Important
+- Devices store sensitive data:
+  - Private chats, photos
+  - Emails
+  - Passwords
+  - Banking apps
+- Unauthorized access can lead to:
+  - Data theft
+  - Misuse
+
+---
+
+# CIA Triad
+
+## Confidentiality
+- Only authorized users can access data
+
+## Integrity
+- Data should not be altered
+
+## Availability
+- System should be accessible when needed
+
+---
+
+# Common OS Security Threats
+- Weak passwords
+- Weak file permissions
+- Malicious programs (malware)
+
+---
+
+# Important Commands
+
+## Current User
+- Command: whoami
+- Shows current user
+
+## Remote Login
+- Command: ssh <username>@<ip>
+- Used for remote access
+
+## List Files
+- Command: ls
+- Displays files in directory
+
+---
+
+# Extra Commands
+
+## View File Content
+- Command: cat <filename>
+- Displays file content
+
+## Command History
+- Command: history
+- Shows previously used commands
