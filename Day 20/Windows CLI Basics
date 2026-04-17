@@ -1,0 +1,108 @@
+# Windows CLI Basics
+
+## CLI (Command Line Interface)
+- Text-based interface to interact with the system
+- Commands are typed instead of using mouse clicks
+- Faster and gives more control
+- Widely used in cybersecurity and IT
+
+---
+
+# Basic Navigation Commands
+
+## Check Current Directory
+- Command: cd
+- Shows current working directory
+
+## List Files and Folders
+- Command: dir
+- Displays files and directories in current location
+
+## Show Hidden Files
+- Command: dir /a
+- Displays hidden files and folders
+
+---
+
+# Directory Navigation
+
+## Move into Folder
+- Command: cd <folder_name>
+
+## Example
+- cd Documents
+
+## Move One Level Back
+- Command: cd ..
+
+---
+
+# Searching Files
+
+## Command
+- dir /s <filename>
+
+## Example
+- dir /s task_brief.txt
+
+## Use
+- Searches in all subdirectories
+- Returns full file path
+
+---
+
+# File Operations
+
+## Read File Content
+- Command: type <filename>
+
+## Example
+- type task_brief.txt
+
+## Use
+- Displays file content in terminal
+
+---
+
+# System Info Commands
+
+## Current Logged-in User
+- Command: whoami
+- Shows username
+
+## Computer Name
+- Command: hostname
+- Displays system name
+
+---
+
+# Windows Version Info
+
+## Command
+- systeminfo
+
+## Shows
+- OS name
+- Version
+- System type
+
+---
+
+# Network Info
+
+## Command
+- ipconfig
+
+## Shows
+- IP address
+- Network details
+
+---
+
+# Summary Workflow
+
+## Steps
+- Navigate → cd
+- List → dir
+- Search → dir /s
+- Read → type
