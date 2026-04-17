@@ -1,0 +1,164 @@
+# Cybersecurity Basics
+
+## Concept
+- Cybersecurity involves protecting systems, networks, and data
+- Goal: prevent attacks before real damage happens
+- Done in a safe, controlled, and authorized way (ethical hacking)
+
+---
+
+# Red Teaming
+
+## Definition
+- Simulates real-world attacks
+
+## Purpose
+- Test overall security defenses
+- Identify weak points in a system
+
+---
+
+# Penetration Testing (Pentesting)
+
+## Definition
+- Structured testing to find and exploit vulnerabilities
+
+## Purpose
+- Understand real-world risks
+- Improve system security
+
+---
+
+# Vulnerability
+
+## Definition
+- Weakness or flaw in a system
+
+---
+
+# Exploit
+
+## Definition
+- Method used to take advantage of a vulnerability
+
+---
+
+# Scope
+
+## Definition
+- Defines what can and cannot be tested
+
+---
+
+# Finding Weaknesses
+
+## Manual Testing
+- Human-based testing
+- Try accessing hidden pages:
+  - /login
+  - /admin
+  - /mail
+  - /register
+
+- If page doesn’t exist → 404 error
+
+---
+
+## Automated Testing (Gobuster)
+
+## Purpose
+- Discover hidden directories/files
+
+## Command Structure
+- gobuster dir -u URL -w wordlist
+
+## Key Parts
+- gobuster → tool  
+- dir → directory scan mode  
+- -u → target URL  
+- -w → wordlist  
+
+---
+
+# Hydra Tool
+
+## Purpose
+- Password cracking (dictionary attack)
+
+## Command Parts
+- hydra → tool  
+- -l → username  
+- -P → password list file  
+- http-post-form → login form type  
+- -V → verbose output  
+
+---
+
+# Enumeration
+
+## Definition
+- Gathering information about a system
+
+---
+
+# Dictionary Attack
+
+## Definition
+- Using wordlists to guess passwords
+
+---
+
+# Defensive Security (Blue Team)
+
+## Goal
+- Protect systems, data, and users
+
+## First Step
+- Understand environment + visibility
+
+---
+
+# Core Functions
+
+## Prevention
+- Stop attacks
+- Tools: firewall, antivirus
+
+## Detection
+- Find attacks
+- Tools: logs, alerts
+
+## Mitigation
+- Reduce damage
+
+## Response
+- Recover and improve
+
+---
+
+# Security Tools
+
+## Firewall
+- Blocks unwanted traffic
+
+## Antivirus
+- Detects malware
+
+## Spam Filter
+- Stops phishing emails
+
+## Monitoring
+- Detects suspicious activity
+
+---
+
+# Key Points Summary
+
+- Red Team = attack simulation  
+- Pentesting = structured testing  
+- Vulnerability = weakness  
+- Exploit = attack method  
+- Gobuster = find hidden files  
+- Hydra = password cracking  
+- Blue Team = defense  
+- Security = prevention + detection + response
