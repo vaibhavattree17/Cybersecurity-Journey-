@@ -1,0 +1,149 @@
+# Data Representation
+
+## Basic Concept
+- Computers use **binary system (base 2)**
+- Uses only **0 and 1**
+- Human system is **decimal (base 10)** → digits 0–9
+- Binary represents data using two states (ON/OFF)
+
+---
+
+# Representing Colors (RGB)
+
+## RGB Model
+- Colors are made using:
+  - Red (R)
+  - Green (G)
+  - Blue (B)
+
+## Binary Representation
+- Each color can be:
+  - 1 (ON)
+  - 0 (OFF)
+
+---
+
+## 3-bit Color System (8 Colors)
+- Total combinations = 2³ = 8
+
+### Examples
+- 000 → Black
+- 001 → Blue
+- 010 → Green
+- 100 → Red
+- 111 → White
+- 011 → Cyan
+- 101 → Magenta
+- 110 → Yellow
+
+---
+
+# 24-bit Color System
+
+## Concept
+- Each color (R, G, B) uses 8 bits
+- Total bits = 8 × 3 = 24 bits
+
+## Levels
+- Each color has 256 levels (0–255)
+
+## Total Colors
+- 256 × 256 × 256 = 16,777,216 (~16 million)
+
+---
+
+# Important Terms
+
+## Bit
+- Smallest unit (0 or 1)
+
+## Byte
+- 8 bits
+
+## Octet
+- Another name for byte
+
+---
+
+# Hexadecimal Representation
+
+## Basics
+- Base 16 system
+- Digits:
+  - 0–9, A–F
+
+## Values
+- A = 10
+- B = 11
+- C = 12
+- D = 13
+- E = 14
+- F = 15
+
+---
+
+# Key Points
+- 1 hex digit = 4 bits
+- 2 hex digits = 1 byte
+- Used to represent colors (e.g., #A3E2A1)
+
+---
+
+# Binary Numbers
+
+## Concept
+- Base 2 number system
+- Each digit has power of 2
+
+## Example
+- 1001₂ =
+  - (1 × 2³) + (0 × 2²) + (0 × 2¹) + (1 × 2⁰)
+  - = 8 + 1 = 9
+
+---
+
+# Important Rule
+- Rightmost bit → 2⁰
+- Next → 2¹, 2², 2³ ...
+
+---
+
+# Decimal to Binary Understanding
+- 1 bit → 2 states
+- 8 bits → 256 values
+
+---
+
+# Hexadecimal ↔ Binary
+
+## Rule
+- 1 hex digit = 4 binary bits
+
+## Examples
+- F → 1111
+- A → 1010
+
+---
+
+# Octal Numbers (Optional)
+- Base 8 system (0–7)
+- 1 octal digit = 3 bits
+
+---
+
+# Conversion Example (Hex → Decimal)
+
+## Example
+- 9BDF₁₆ =
+  - (9 × 16³) + (11 × 16²) + (13 × 16¹) + (15 × 16⁰)
+  - = 39,903
+
+---
+
+# Summary
+- Binary → base 2 (0,1)
+- Decimal → base 10
+- Hex → base 16 (0–F)
+- 1 byte = 8 bits
+- Color = 24 bits (RGB)
+- Total colors ≈ 16 million
