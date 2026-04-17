@@ -1,0 +1,143 @@
+# Cryptography Basics
+
+## Concept
+- Cryptography is used to protect secrets and secure data
+- It helps maintain:
+  - Confidentiality
+  - Integrity
+- Data travels through many systems → protection is needed
+
+---
+
+# Basic Terms
+
+## Plaintext
+- Original readable message
+- Example: HELLO
+
+## Ciphertext
+- Scrambled/unreadable message
+- Example: KHOOR
+
+## Key
+- Secret value used for encryption and decryption
+- Must be kept secure
+
+## Algorithm
+- Set of rules used for encryption/decryption
+- Usually public
+
+---
+
+# Encryption & Decryption
+
+## Encryption
+- Plaintext + Key + Algorithm → Ciphertext
+
+## Decryption
+- Ciphertext + Key + Algorithm → Plaintext
+
+---
+
+# Caesar Cipher
+
+## Concept
+- Simple encryption technique
+- Each letter is shifted by fixed number
+
+## Example (shift = 3)
+- H → K  
+- E → H  
+- L → O  
+- O → R  
+
+- HELLO → KHOOR
+
+---
+
+# Symmetric Encryption
+
+## Key Points
+- Uses ONE key
+- Same key for encryption and decryption
+- Fast and efficient
+
+## Uses
+- Bulk data encryption
+
+---
+
+# Asymmetric Encryption
+
+## Key Points
+- Uses TWO keys:
+  - Public Key (shared)
+  - Private Key (secret)
+- Public key → encryption  
+- Private key → decryption
+
+## Uses
+- Key exchange
+- Authentication
+
+---
+
+# Key Distribution Problem
+- Difficult to securely share key in symmetric encryption
+
+---
+
+# HTTPS (Real-World Use)
+
+## Process
+- Browser requests website using HTTPS
+- Website sends certificate with public key
+- Secure connection established using encryption
+
+---
+
+# Types of Encryption
+
+## Symmetric
+- Fast
+- Used for data transfer
+
+## Asymmetric
+- Slower
+- Used for key exchange
+
+---
+
+# Digital Certificates
+
+## Purpose
+- Verify website identity
+
+## Contains
+- Public key
+- Signed by Certificate Authority (CA)
+
+---
+
+# Key Points Summary
+
+- Encryption = making data unreadable
+- Decryption = converting back to readable form
+- Plaintext → Ciphertext → Plaintext
+- Symmetric = 1 key
+- Asymmetric = 2 keys
+- HTTPS uses both types
+
+---
+
+# Symmetric vs Asymmetric
+
+## Symmetric
+- One key
+- Very fast
+- Used for bulk data
+
+## Asymmetric
+- Two keys
+- Slower
+- Used for authentication and key exchange
