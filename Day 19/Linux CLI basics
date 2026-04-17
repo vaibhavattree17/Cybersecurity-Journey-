@@ -1,0 +1,145 @@
+# Linux CLI Basics
+
+## Terminal Basics
+- Terminal is a text-based interface to interact with Linux
+- Faster and gives more control than GUI
+- Used heavily in cybersecurity tools (e.g., Kali Linux)
+
+## Check Current Directory
+- Command: pwd
+- Shows present working directory
+- Displays current location in system
+
+---
+
+# List Files and Directories
+
+## ls Command
+- Command: ls
+- Shows files/folders in current directory
+
+## Detailed View
+- Command: ls -l
+- Shows permissions, size, date
+
+## Hidden Files
+- Command: ls -a
+- Shows hidden files (starting with .)
+
+---
+
+# Directory Navigation
+
+## Change Directory
+- Command: cd <directory>
+- Move into a directory
+
+## Move Back
+- Command: cd ..
+- Move one level up
+
+## Example
+- cd Documents
+- cd ..
+
+---
+
+# Find Files
+
+## Command
+- find <path> -name <filename>
+
+## Example
+- find ~ -name mission_brief.txt
+
+## Use
+- Locate files in system
+- Returns full file path
+
+---
+
+# Read File Content
+
+## Command
+- cat <filename>
+
+## Example
+- cat mission_brief.txt
+
+## Use
+- Displays file content in terminal
+
+---
+
+# User Information
+
+## Command
+- whoami
+- Shows currently logged-in user
+
+---
+
+# System Information
+
+## Full Details
+- Command: uname -a
+- Shows kernel, architecture, system details
+
+## OS Name Only
+- Command: uname
+- Shows OS name
+
+---
+
+# Disk Usage
+
+## Command
+- df -h
+- Shows storage in human-readable format (GB/MB)
+
+## Terms
+- Size → Total space
+- Used → Used space
+- Avail → Free space
+
+---
+
+# Important Directories
+
+## /home
+- User files
+
+## /etc
+- System configuration files
+
+---
+
+# Read System Files
+
+## Navigate
+- cd /etc
+
+## View File
+- cat os-release
+
+## Contains
+- OS version
+- OS name
+- ID
+
+---
+
+# Hidden Files
+- Start with .
+- Not visible with normal ls
+- Use ls -a to view
+
+---
+
+# Mini Workflow
+
+## Steps
+- Find file → find
+- Navigate → cd
+- Verify → ls
+- Read → cat
