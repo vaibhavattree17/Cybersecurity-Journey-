@@ -12,7 +12,7 @@
 ## Key Components
 - DNS → finds server 
 - HTTP → communication
-- Server → sends data  
+- Server → sends data   
 - Browser → displays content  
 
 ---
