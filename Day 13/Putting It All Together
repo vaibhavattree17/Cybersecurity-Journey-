@@ -24,7 +24,7 @@
 - Receives request → forwards to one of multiple servers
 
 ## Algorithms
-- Round Robin → sends requests one by one
+- Round Robin → sends requests one by one 
 - Weighted → sends more traffic to powerful servers
 
 ## Features
