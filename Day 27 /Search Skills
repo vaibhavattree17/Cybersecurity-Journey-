@@ -1,1 +1,55 @@
+# Daily Learning Update
+
+Today I studied different ways to search, verify, and collect information effectively in cybersecurity and technical fields.
+
+## Topics Covered
+
+### 1. Search Skills
+
+* How to find accurate information quickly.
+* Why we should not trust the first search result blindly.
+* Importance of using trusted and official sources.
+* Comparing multiple sources before believing facts.
+
+### 2. Search Engines
+
+* Common search engines: Google, Bing, DuckDuckGo.
+* Smart search operators:
+
+  * `"quotes"` for exact phrase search
+  * `site:` to search inside one website
+  * `-` to exclude words
+  * `filetype:` to find specific files like PDF
+
+### 3. Specialized Search Tools
+
+* **Shodan** – finds internet-connected devices.
+* **Censys** – searches hosts, websites, certificates.
+* **VirusTotal** – scans files/URLs with multiple antivirus engines.
+* **Have I Been Pwned** – checks if email/data was leaked.
+
+### 4. Vulnerabilities & Exploits
+
+* **CVE** = Common Vulnerabilities and Exposures.
+* Example: CVE-2024-xxxx format.
+* **NVD** provides vulnerability details.
+* **Exploit Database** contains exploit code and PoCs.
+
+### 5. Technical Documentation
+
+* Official docs are the best source for commands/software.
+* Linux uses `man` pages for help.
+* Microsoft Docs for Windows technologies.
+* Product documentation is reliable and updated.
+
+### 6. Social Media Awareness
+
+* Useful for tracking trends, news, and research.
+* Helps in recon and company research.
+* LinkedIn useful for professional background checks.
+* Avoid oversharing personal information online.
+
+## Key Lesson
+
+Good searching is a skill. In cybersecurity, finding the right information quickly and verifying it can save hours of work.
 
