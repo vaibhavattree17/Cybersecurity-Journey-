@@ -1,1 +1,51 @@
+# Linux Learning Journey - Daily Progress Update
 
+## Topics Covered Today
+
+### 1. Linux Basics
+- Learned what **Linux** is and why it is widely used.
+- Understood Linux as a **lightweight and powerful operating system**.
+- Explored common Linux usages:
+  - Websites
+  - Servers
+  - Mobile devices (**Android**)
+  - Embedded systems
+
+### 2. Linux Flavours / Distributions
+- Learned that Linux has many versions called **distributions (distros)**.
+- Examples:
+  - Ubuntu
+  - Debian
+
+### 3. Linux Terminal
+- Introduction to the **Linux terminal / command line interface**.
+- Learned that text-based interface is faster and more powerful than GUI for many tasks.
+- Commands are used to interact with Linux system.
+
+### 4. Basic Linux Commands
+- `echo` → Displays text on screen.
+- `whoami` → Shows current username.
+- `ls` → Lists files and folders in current directory.
+- `pwd` → Shows present working directory.
+- `cd` → Changes directory.
+- `cat` → Shows file contents.
+- `touch` → Creates empty file.
+
+### 5. Searching Commands
+- `find` → Search files/folders.
+- `grep` → Search specific words/text in files.
+- `grep -R` → Recursive search in folders and subfolders.
+- `wc -l` → Count number of lines in a file.
+- `&&` → Runs second command only if first succeeds.
+
+### 6. Redirection Operators
+- `>` → Redirect output to file (overwrite old content).
+- `>>` → Append output to file without deleting old data.
+
+## Key Takeaways
+- Linux is powerful for system management and development.
+- Terminal commands improve speed and control.
+- Searching and redirection commands are essential for productivity.
+
+## Progress Status
+Consistent learning in Linux fundamentals and command line operations. More command practice ahead.
