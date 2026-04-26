@@ -8,7 +8,7 @@
 - Systems now provide services to each other.
   
 ## Key Concepts
-- Client: Initiates request. 
+- Client: Initiates request.  
 - Server: Provides requested service. 
 - Network: Medium for communication.
 - Protocol: Rules for communication.
