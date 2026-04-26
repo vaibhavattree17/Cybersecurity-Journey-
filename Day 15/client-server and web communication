@@ -9,7 +9,7 @@
   
 ## Key Concepts
 - Client: Initiates request.
-- Server: Provides requested service.
+- Server: Provides requested service. 
 - Network: Medium for communication.
 - Protocol: Rules for communication.
 - Port: Identifies specific service.
