@@ -11,7 +11,7 @@
 
 ## Key Components 
 - DNS → finds server 
-- HTTP → communication
+- HTTP → communication 
 - Server → sends data   
 - Browser → displays content    
 
