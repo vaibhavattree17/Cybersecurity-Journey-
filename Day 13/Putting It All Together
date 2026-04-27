@@ -9,7 +9,7 @@
 - Browser connects to web server
 - Uses HTTP protocol for communication
 
-## Key Components
+## Key Components 
 - DNS → finds server 
 - HTTP → communication
 - Server → sends data   
