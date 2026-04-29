@@ -13,7 +13,7 @@
 - User Space: Limited access (uses system calls)
 
 ## Core Responsibilities
-
+ 
 ### Process Management
 - Runs and schedules programs
 
