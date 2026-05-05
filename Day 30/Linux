@@ -1,1 +1,105 @@
+# SCP (Secure Copy)
+- Used to transfer files between systems using SSH
 
+## Capabilities
+- Local → Remote copy
+- Remote → Local copy
+
+## Examples
+- scp file user@IP:/path
+- scp user@IP:/path file
+
+
+# Python HTTP Server
+- Module: http.server
+- Used to create simple web server
+
+## Start Server
+- python3 -m http.server
+
+## Notes
+- Runs on port 8000 by default
+- Serves files from current directory
+
+## Download Example
+- wget http://MACHINE_IP:8000/file
+
+
+# Processes
+- Programs running on system
+- Managed by kernel
+- Each process has PID (Process ID)
+
+
+# Viewing Processes
+- ps → shows running processes
+- ps aux → shows all processes
+
+
+# Top Command
+- Shows real-time process statistics
+- Updates automatically
+
+## Displays
+- CPU usage
+- Memory usage
+- Running processes
+
+
+# Managing Processes
+- kill command → terminate process
+- Syntax: kill PID
+
+## Signals
+- SIGTERM → graceful stop
+- SIGKILL → force stop
+- SIGSTOP → pause process
+
+
+# Process Creation
+- OS uses namespace to manage resources
+- Helps isolate processes
+- Improves security
+
+
+# systemd
+- First process started (PID 1)
+- Manages other processes
+- All programs run as child processes of systemd
+
+
+# systemctl Command
+- Used to interact with systemd
+
+## Syntax
+- systemctl [option] [service]
+
+## Common Options
+- start → start service
+- stop → stop service
+- enable → start on boot
+- disable → prevent start on boot
+- status → check status
+
+## Example
+- systemctl start apache2
+
+
+# Foreground and Background Processes
+
+## Foreground
+- Runs in terminal
+- Output shown immediately
+
+## Background
+- Runs without blocking terminal
+- Use & to run in background
+
+## Example
+- echo "Hi TTM" &
+
+## Process Control
+- Ctrl + Z → suspend process (send to background)
+
+## Foregrounding
+- fg → bring process to foreground
