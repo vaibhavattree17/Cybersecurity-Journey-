@@ -1,0 +1,120 @@
+# SSH (Secure Shell)
+- Used to remotely connect to another Linux machine
+- Provides encrypted communication
+- Syntax: ssh username@IP_address
+- Requires:
+  - IP address of target machine
+  - Valid username and password
+
+
+# Flags and Switches
+- Commands accept arguments using flags
+- Default command behavior can be modified
+- Examples:
+  - ls → list files
+  - ls -a → show hidden files
+  - ls -h → show options
+  - man ls → manual page
+
+
+# File and Directory Commands
+- touch → create file
+- mkdir → create directory
+- rm → remove file
+- rmdir → remove directory
+- cp → copy files/folders
+- mv → move/rename
+- file → check file type
+
+
+# File Types
+- file filename → identify actual file type
+- ASCII text supported
+
+
+# Permissions
+- Format: rwx rwx rwx
+- First → owner
+- Second → group
+- Third → others
+
+## Permission Values
+- r → read (4)
+- w → write (2)
+- x → execute (1)
+
+## Example
+- rwxr-xr-x = 755
+
+## Change Permission
+- chmod 755 file
+
+
+# Switching Users
+- su username → switch user
+- su - username → full login environment
+- Requires password
+
+
+# Important Directories
+- /etc → system configuration files
+- /var → variable data
+- /root → root user home
+- /boot → boot files
+- /tmp → temporary files
+
+
+# Networking Basics
+- Network → system connection
+- /etc/network/interfaces → network config
+
+## Ports
+- 80 → HTTP
+- 443 → HTTPS
+
+## Tools
+- netstat → show network info
+- ifconfig → network interface info
+
+
+# Terminal Text Editors
+- echo > and >> → not efficient for multi-line
+
+## Editors
+- nano (easy)
+- vim (advanced)
+
+
+# Nano Editor
+- nano filename → open/create file
+
+## Navigation
+- Arrow keys → move
+- Enter → next line
+
+## Features
+- Search text
+- Copy & paste
+- Jump to line number
+- Show current line
+
+## Shortcuts
+- Ctrl + X → exit
+- Ctrl + O → save
+- Ctrl + W → search
+- Ctrl + K → cut
+- Ctrl + U → paste
+
+
+# Vim Editor
+- Advanced text editor
+- Hard to learn but powerful
+
+## Benefits
+- Customizable shortcuts
+- Syntax highlighting
+- Works even if nano not installed
+- Many tutorials available
+
+
+# Downloading Files
