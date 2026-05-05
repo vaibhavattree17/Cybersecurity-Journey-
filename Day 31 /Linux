@@ -1,1 +1,82 @@
 
+# Cron and Crontab
+
+## Cron
+- Used to schedule tasks
+- Runs automatically
+
+## Crontab
+- Stores scheduled jobs
+- crontab -e → edit
+
+## Format
+- MIN HOUR DOM MON DOW CMD
+
+## Fields
+- MIN → minute
+- HOUR → hour
+- DOM → day of month
+- MON → month
+- DOW → day of week
+- CMD → command
+
+## Example
+- 0 * /12 * * * cp -R /home/... /var/backups/
+
+## Notes
+- * → any value
+- Used for automation (e.g., backups)
+
+
+# Package Management
+
+## Repositories
+- Software stored in repositories
+- Located in: /etc/apt
+
+## Important Files
+- sources.list
+- sources.list.d
+
+## Add Repository
+- add-apt-repository
+
+## GPG Keys
+- Verify software authenticity
+- Ensure trusted downloads
+
+
+# Installing Software
+
+## Update
+- apt update
+
+## Install
+- apt install <package>
+
+## Remove
+- apt remove <package>
+
+
+# Logs in Linux
+
+## Location
+- /var/log
+
+## Purpose
+- Monitor system health
+- Track activity
+- Detect issues or attacks
+
+
+# Types of Logs
+
+## Apache Logs
+- access.log → requests
+- error.log → errors
+
+## Other Logs
+- auth.log → authentication
+- syslog → system activity
+- fail2ban.log → brute force attempts
+- ufw.log → firewall logs
