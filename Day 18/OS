@@ -12,7 +12,7 @@
 - Kernel Space: Full access to hardware 
 - User Space: Limited access (uses system calls)
  
-## Core Responsibilities
+## Core Responsibilities 
  
 ### Process Management
 - Runs and schedules programs 
