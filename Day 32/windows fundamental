@@ -1,0 +1,141 @@
+# Windows Desktop (GUI)
+
+- GUI stands for Graphical User Interface.
+- GUI is the screen shown after logging into Windows.
+- Login requires username and password credentials.
+- GUI makes interaction with Windows easy through icons and menus.
+
+## Main Components of Windows Desktop
+
+1. Desktop
+2. Start Menu
+3. Search Box (Cortana)
+4. Task View
+5. Taskbar
+6. Toolbars
+7. Notification Area
+
+# Desktop
+
+- Desktop contains shortcuts to programs, files, and folders.
+- Icons can be organized or scattered on the desktop.
+- Right-clicking on desktop opens a context menu.
+- Context menu options:
+  - View
+  - Sort by
+  - Refresh
+  - New
+- Desktop settings can be customized.
+
+## Display Settings
+
+- Used to change:
+  - Screen resolution
+  - Screen orientation
+  - Scaling/layout
+- Multiple monitors can also be configured.
+- In Remote Desktop sessions, some display settings are disabled.
+
+## Personalize Settings
+
+- Used to change:
+  - Wallpaper/background
+  - Themes
+  - Fonts
+  - Colors
+
+# Start Menu
+
+- Start Menu gives access to:
+  - Apps/programs
+  - Files
+  - Utility tools
+  - Settings
+- Opened by clicking the Windows logo.
+
+## Sections of Start Menu
+
+### 1. Left Section
+
+- Contains quick shortcuts.
+- Includes:
+  - User account
+  - Documents
+  - Pictures
+  - Settings
+  - Power options
+
+### 2. Middle Section
+
+- Shows:
+  - Recently added applications
+  - Installed applications
+- Programs are arranged alphabetically.
+- Alphabet grid helps quickly jump to apps.
+
+### 3. Right Section (Tiles)
+
+- Contains app tiles/icons.
+- Tiles can be:
+  - Resized
+  - Unpinned
+  - Customized
+- Apps can be pinned to Start Menu.
+
+# Taskbar
+
+- Located at the bottom of the desktop.
+- Contains:
+  - Running applications
+  - Pinned applications
+  - Search box
+  - Task View button
+- Right-clicking taskbar opens customization options.
+- Taskbar settings allow enabling/disabling components.
+
+## Taskbar Features
+
+- Hovering over app icon shows preview thumbnail.
+- Open applications appear on taskbar.
+- Closed applications disappear unless pinned.
+
+# Notification Area
+
+- Located at bottom-right corner of screen.
+- Displays:
+  - Date and time
+  - Network icon
+  - Volume icon
+  - Action Center
+- Icons can be customized from Taskbar settings.
+
+# Windows File System
+
+- Modern Windows uses NTFS (New Technology File System).
+- Older file systems:
+  - FAT16/FAT32
+  - HPFS
+
+## Features of NTFS
+
+- Supports files larger than 4GB.
+- Provides file and folder permissions.
+- Supports compression.
+- Supports encryption using EFS.
+- Uses journaling for recovery after failures.
+
+# Remote Desktop
+
+- Remote Desktop allows accessing another computer remotely.
+- Requires:
+  - Machine IP
+  - Username
+  - Password
+- Uses RDP (Remote Desktop Protocol).
+
+# Important Notes
+
+- Search box can be hidden from taskbar.
+- Task View button can also be disabled.
+- Action Center is part of Notification Area.
+- Right-click menus provide extra management options.
