@@ -1,1 +1,103 @@
+# NTFS Permissions
 
+- NTFS = New Technology File System
+- Permissions control access to files/folders
+
+## Types of Permissions
+
+- Full Control
+- Modify
+- Read & Execute
+- List Folder Contents
+- Read
+- Write
+
+# Viewing Permissions
+
+- Right-click file/folder
+- Open Properties
+- Go to Security tab
+- View users and permissions
+
+# Alternate Data Streams (ADS)
+
+- Feature of NTFS
+- Allows multiple data streams in one file
+- Used to hide/store extra data
+- Can be viewed using PowerShell
+- Sometimes abused by malware
+
+# Windows Folder & System32
+
+- Windows folder usually located at:
+  - C:\Windows
+- System variable:
+  - %windir%
+- System32 contains important OS files
+- Deleting System32 files can damage Windows
+
+# User Accounts
+
+## Types of Accounts
+
+- Administrator
+- Standard User
+
+## Administrator
+
+- Can change system settings
+- Can add/remove users
+- Can install programs
+
+## Standard User
+
+- Limited permissions
+- Cannot make system-level changes
+
+# User Profiles
+
+- Stored in:
+  - C:\Users
+- Common folders:
+  - Desktop
+  - Documents
+  - Downloads
+  - Music
+  - Pictures
+
+# Local Users and Groups
+
+- Open Run dialog
+- Type:
+  - lusrmgr.msc
+- Shows:
+  - Users
+  - Groups
+- Users inherit group permissions
+
+# User Account Control (UAC)
+
+- UAC = User Account Control
+- Prevents unauthorized system changes
+- Prompts for admin permission before installing/changing system files
+- Shield icon indicates admin privileges required
+
+# Settings vs Control Panel
+
+## Settings
+
+- Modern Windows configuration tool
+- Easier and touch-friendly
+
+## Control Panel
+
+- Traditional management tool
+- Used for advanced settings
+
+# Programs and Features
+
+- Located in Control Panel
+- Used to:
+  - View installed programs
+  - Uninstall software
+  - Repair applications
