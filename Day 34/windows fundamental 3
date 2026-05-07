@@ -1,1 +1,65 @@
+# Settings and Control Panel
 
+## Settings
+
+- Modern Windows settings tool
+- Easier and user-friendly
+- Used for common system changes
+
+## Control Panel
+
+- Traditional Windows management tool
+- Used for advanced settings
+- Can manage programs, network, accounts, etc.
+
+## Accessing Them
+
+- Open from Start Menu
+- Search directly from Windows Search
+
+# Network Settings Example
+
+- Settings → Network & Internet
+- Click Change adapter options
+- Opens Control Panel network settings
+
+# Windows Search
+
+- Search settings quickly from Start Menu
+- Example:
+  - Search "wallpaper" to change background
+
+# Task Manager
+
+- Shows running apps and processes
+- Displays:
+  - CPU usage
+  - RAM usage
+  - Background processes
+
+## Opening Task Manager
+
+- Right-click taskbar → Task Manager
+- Shortcut:
+  - Ctrl + Shift + Esc
+
+## Views
+
+### Simple View
+
+- Shows open applications only
+
+### Detailed View
+
+- Shows:
+  - Processes
+  - Performance
+  - Users
+  - Services
+  - Details
+
+# Important Use of Task Manager
+
+- End unresponsive apps
+- Monitor system performance
+- Check memory and CPU usage
