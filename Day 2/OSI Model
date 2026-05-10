@@ -7,7 +7,7 @@ Types of Routing Protocols
 OSPF (Open Shortest Path First) – Uses shortest path algorithm.
 RIP (Routing Information Protocol) – Uses hop count to determine best route.
 
-OSI Model (Open System Interconnection Model)
+OSI Model (Open System Interconnection Model) 
 A conceptual model that standardizes communication between devices.
 
 Divides networking into 7 layers.
