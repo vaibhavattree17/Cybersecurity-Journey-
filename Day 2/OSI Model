@@ -14,7 +14,7 @@ Divides networking into 7 layers.
 Each layer has its own function.
 Data moves through layers using a process called encapsulation.
 
-OSI Layers (Top to Bottom) 
+OSI Layers (Top to Bottom)  
 Application  
 Presentation
 Session
