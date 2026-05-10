@@ -15,7 +15,7 @@ Each layer has its own function.
 Data moves through layers using a process called encapsulation.
 
 OSI Layers (Top to Bottom)
-Application 
+Application  
 Presentation
 Session
 Transport
