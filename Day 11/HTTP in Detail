@@ -3,7 +3,7 @@
 ## HTTP (HyperText Transfer Protocol)
 - Used when you visit websites
 - Developed by Tim Berners-Lee (1989–1991)
-- Set of rules for communication between client (browser) and server
+- Set of rules for communication between client (browser) and servers
 - Transfers data like:
   - HTML
   - Images
