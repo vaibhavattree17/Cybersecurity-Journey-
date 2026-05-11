@@ -13,7 +13,7 @@
 ## Basics
 - Early character encoding standard
 - Uses **7 bits**
-- Total characters = **128 (0–127)**
+- Total characters = **128 (0–127)** 
 
 ## Includes
 - English letters (A–Z, a–z)
