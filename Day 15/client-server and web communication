@@ -21,7 +21,7 @@
 - Example:
   - Browser = Client
   - Website host = Server
-- Client always starts communication.
+- Client always starts communications.
 
 ## Request and Response
 - Client sends request to server.
