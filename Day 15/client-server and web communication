@@ -17,7 +17,7 @@
 
 ## Client and Server
 - Client initiates request.
-- Server processes and responds.
+- Server processes and responds
 - Example:
   - Browser = Client
   - Website host = Server
