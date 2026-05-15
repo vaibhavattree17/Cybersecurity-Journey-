@@ -13,7 +13,7 @@
 - Network: Medium for communication.
 - Protocol: Rules for communication. 
 - Port: Identifies specific service.
-- DNS: Resolves domain names to IP.
+- DNS: Resolves domain names to IP
 
 ## Client and Server
 - Client initiates request.
