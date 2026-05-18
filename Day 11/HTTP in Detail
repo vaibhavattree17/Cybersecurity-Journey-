@@ -5,7 +5,7 @@
 - Developed by Tim Berners-Lee (1989–1991)
 - Set of rules for communication between client (browser) and servers
 - Transfers data like:
-  - HTML
+  - HTML 
   - Images
   - Videos
 - Data is not encrypted insecure
