@@ -90,7 +90,7 @@
 
 ---
 
-## 9. Containers
+## 9. Container
 
 - Lightweight alternative to VMs  
 - Runs a single application + dependencies  
