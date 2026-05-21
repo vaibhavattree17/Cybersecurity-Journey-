@@ -65,7 +65,7 @@
 # WAF (Web Application Firewall)
 
 ## Function
-- Sits between user request and web server
+- Sits between user request and web servers
 
 ## Protection
 - Attacks
