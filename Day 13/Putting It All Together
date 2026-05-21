@@ -21,7 +21,7 @@
 
 ## Purpose
 - Handles high traffic websites
-- Receives request → forwards to one of multiple servers
+- Receives request → forwards to one of multiple server
 
 ## Algorithms
 - Round Robin → sends requests one by one 
