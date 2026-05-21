@@ -10,7 +10,7 @@
 - Uses HTTP protocol for communication
 
 ## Key Components 
-- DNS → finds server 
+- DNS → finds servers
 - HTTP → communication 
 - Server → sends data   
 - Browser → displays content    
