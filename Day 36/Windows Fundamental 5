@@ -1,0 +1,127 @@
+# Windows Security & Protection Lab
+
+## Introduction
+This lab focused on Windows security features, protection mechanisms, system updates, and data protection tools used to secure and maintain a Windows operating system.
+
+---
+
+# Tasks Completed
+
+## Task 1: Introduction
+- Learned about Windows security tools and protection features
+- Explored system security management
+- Understood the importance of protecting systems and data
+
+---
+
+## Task 2: Windows Updates
+- Opened **Windows Update Settings**
+- Checked for available updates
+- Learned:
+  - Security updates
+  - Feature updates
+  - Driver updates
+- Understood the importance of regular system updates
+
+---
+
+## Task 3: Windows Security
+- Opened **Windows Security Center**
+- Explored different security sections
+- Learned centralized security management in Windows
+
+---
+
+## Task 4: Virus & Threat Protection
+- Explored **Virus & Threat Protection**
+- Learned about:
+  - Real-time protection
+  - Quick scan
+  - Full scan
+  - Threat history
+- Understood malware detection and prevention
+
+---
+
+## Task 5: Firewall & Network Protection
+- Opened **Firewall & Network Protection**
+- Explored:
+  - Domain network
+  - Private network
+  - Public network
+- Learned how firewall protects against unauthorized access
+
+---
+
+## Task 6: App & Browser Control
+- Explored **App & Browser Control**
+- Learned about:
+  - SmartScreen filter
+  - Reputation-based protection
+  - Exploit protection
+- Understood safe browsing and application security
+
+---
+
+## Task 7: Device Security
+- Opened **Device Security**
+- Explored:
+  - Core isolation
+  - Secure boot
+  - TPM (Trusted Platform Module)
+- Learned hardware-level security features
+
+---
+
+## Task 8: BitLocker
+- Learned about **BitLocker Drive Encryption**
+- Understood:
+  - Data encryption
+  - Drive protection
+  - Recovery key usage
+- Explored how BitLocker secures stored data
+
+---
+
+## Task 9: Volume Shadow Copy Service
+- Learned about **Volume Shadow Copy Service (VSS)**
+- Understood:
+  - Backup snapshots
+  - Restore points
+  - File recovery
+- Learned how Windows creates backup copies of files
+
+---
+
+## Task 10: Conclusion
+- Successfully explored Windows security and protection tools
+- Learned methods to secure systems and data
+- Improved understanding of Windows defensive technologies
+
+---
+
+# Key Learning Outcomes
+- Windows security management
+- Malware protection
+- Firewall configuration
+- Device security
+- Data encryption
+- Backup and recovery
+- System update management
+
+---
+
+# Tools Explored
+- Windows Update
+- Windows Security
+- Virus & Threat Protection
+- Firewall & Network Protection
+- App & Browser Control
+- Device Security
+- BitLocker
+- Volume Shadow Copy Service
+
+---
+
+# Summary
+This lab provided hands-on experience with essential Windows security and protection features. These tools help protect systems from threats, secure sensitive data, manage updates, and maintain system integrity through defensive technologies and recovery mechanisms.
