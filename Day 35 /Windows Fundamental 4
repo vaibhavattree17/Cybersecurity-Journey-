@@ -1,0 +1,126 @@
+# Windows System Tools & Configuration Lab
+
+## Introduction
+This lab focused on exploring important Windows administrative and troubleshooting tools used for system management, monitoring, and configuration.
+
+---
+
+# Tasks Completed
+
+## Task 1: Introduction
+- Learned about Windows administrative utilities
+- Explored system troubleshooting and configuration tools
+- Understood the importance of system management in Windows
+
+---
+
+## Task 2: System Configuration and Advanced System Settings
+- Opened **System Configuration (MSConfig)**
+- Explored:
+  - Boot options
+  - Startup services
+  - System services
+  - Startup programs
+- Accessed **Advanced System Settings**
+- Viewed:
+  - Performance settings
+  - User profiles
+  - Startup and recovery settings
+  - Environment variables
+
+---
+
+## Task 3: Change UAC Settings
+- Opened **User Account Control (UAC)**
+- Learned how UAC helps protect the system
+- Explored different notification levels
+- Understood administrator permission prompts
+
+---
+
+## Task 4: Computer Management
+- Opened **Computer Management**
+- Explored:
+  - Task Scheduler
+  - Event Viewer
+  - Shared Folders
+  - Device Manager
+  - Disk Management
+  - Services and Applications
+- Learned centralized system administration
+
+---
+
+## Task 5: System Information
+- Opened **System Information Tool**
+- Viewed:
+  - Hardware resources
+  - Components
+  - Software environment
+  - BIOS details
+  - Installed memory and processor information
+
+---
+
+## Task 6: Resource Monitor
+- Opened **Resource Monitor**
+- Monitored:
+  - CPU usage
+  - Memory usage
+  - Disk activity
+  - Network activity
+- Learned real-time performance monitoring
+
+---
+
+## Task 7: Command Prompt
+- Accessed **Command Prompt (CMD)**
+- Practiced basic commands
+- Learned command-line administration
+- Understood system troubleshooting using CMD
+
+---
+
+## Task 8: Registry Editor
+- Opened **Registry Editor (Regedit)**
+- Explored Windows Registry structure
+- Learned:
+  - Registry keys
+  - Registry values
+  - System configuration storage
+- Understood risks of incorrect registry modifications
+
+---
+
+## Task 9: Conclusion
+- Successfully explored major Windows administrative tools
+- Learned system monitoring and troubleshooting basics
+- Improved understanding of Windows system management
+
+---
+
+# Key Learning Outcomes
+- Windows system configuration
+- User Account Control management
+- Resource monitoring
+- Registry management
+- Command-line basics
+- System administration tools
+- Troubleshooting techniques
+
+---
+
+# Tools Explored
+- MSConfig
+- Advanced System Settings
+- UAC
+- Computer Management
+- System Information
+- Resource Monitor
+- Command Prompt
+- Registry Editor
+
+---
+
+# Summary
+This lab provided hands-on experience with essential Windows administrative and troubleshooting tools. These utilities help system administrators manage performance, configure settings, monitor resources, and troubleshoot system-related issues efficiently.
