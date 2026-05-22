@@ -1,0 +1,119 @@
+# Windows Domains & Active Directory Lab
+
+## Introduction
+This lab focused on Windows Domains, Active Directory (AD), authentication methods, Group Policies, and domain management concepts used in enterprise environments.
+
+---
+
+# Tasks Completed
+
+## Task 1: Introduction
+- Learned about Windows domain environments
+- Explored centralized administration concepts
+- Understood the role of Active Directory in organizations
+
+---
+
+## Task 2: Windows Domains
+- Learned about **Windows Domains**
+- Understood:
+  - Centralized management
+  - Domain controllers
+  - Client-server architecture
+- Explored domain-based authentication and administration
+
+---
+
+## Task 3: Active Directory
+- Explored **Active Directory (AD)**
+- Learned:
+  - Directory services
+  - Object management
+  - Centralized authentication
+- Understood how AD stores and manages network resources
+
+---
+
+## Task 4: Managing Users in AD
+- Learned user account management in Active Directory
+- Explored:
+  - Creating users
+  - Modifying user accounts
+  - Password management
+  - User permissions
+- Understood organizational user administration
+
+---
+
+## Task 5: Managing Computers in AD
+- Learned computer object management in Active Directory
+- Explored:
+  - Joining systems to a domain
+  - Managing computer accounts
+  - Organizational Units (OUs)
+- Understood centralized device management
+
+---
+
+## Task 6: Group Policies
+- Explored **Group Policy Management**
+- Learned:
+  - User policies
+  - Computer policies
+  - Security settings
+  - Administrative templates
+- Understood centralized policy enforcement
+
+---
+
+## Task 7: Authentication Methods
+- Learned different authentication methods used in Windows
+- Explored:
+  - Kerberos authentication
+  - NTLM authentication
+  - Single Sign-On (SSO)
+- Understood secure user verification methods
+
+---
+
+## Task 8: Trees, Forests and Trusts
+- Learned Active Directory structure concepts:
+  - Trees
+  - Forests
+  - Trust relationships
+- Understood multi-domain communication and resource sharing
+
+---
+
+## Task 9: Conclusion
+- Successfully explored Windows domain and Active Directory concepts
+- Learned centralized management and authentication methods
+- Improved understanding of enterprise network administration
+
+---
+
+# Key Learning Outcomes
+- Windows domain management
+- Active Directory administration
+- User and computer management
+- Group Policy configuration
+- Authentication methods
+- Domain structure concepts
+- Enterprise network administration
+
+---
+
+# Tools & Concepts Explored
+- Windows Domains
+- Active Directory
+- User Management
+- Computer Management
+- Group Policy
+- Kerberos
+- NTLM
+- Trees, Forests & Trusts
+
+---
+
+# Summary
+This lab provided hands-on experience with Windows Domains and Active Directory administration. These technologies help organizations manage users, computers, authentication, security policies, and network resources efficiently in enterprise environments.
