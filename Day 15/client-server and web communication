@@ -11,7 +11,7 @@
 - Client: Initiates request.  
 - Server: Provides requested service. 
 - Network: Medium for communication.
-- Protocol: Rules for communication. 
+- Protocol: Rules for communication
 - Port: Identifies specific service
 - DNS: Resolves domain names to IP
 
