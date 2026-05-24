@@ -1,1 +1,232 @@
 
+# File and Directory Management
+
+## `cd`
+Displays or changes current directory.
+
+Example:
+```cmd
+cd
+```
+
+## `dir`
+Lists files and folders.
+
+Example:
+```cmd
+dir
+```
+
+## `dir /s`
+Displays files and all subdirectories.
+
+Example:
+```cmd
+dir /s
+```
+
+## `tree`
+Displays folder structure visually.
+
+Example:
+```cmd
+tree
+```
+
+---
+
+# Navigation Commands
+
+## Move into Directory
+```cmd
+cd Users
+```
+
+## Move Back One Level
+```cmd
+cd ..
+```
+
+---
+
+# Directory Management
+
+## Create Directory
+```cmd
+mkdir backup_files
+```
+
+## Remove Directory
+```cmd
+rmdir backup_files
+```
+
+---
+
+# File Management Commands
+
+## View File Content
+
+### `type`
+Displays file contents.
+
+```cmd
+type file.txt
+```
+
+### `more`
+Displays large text files page by page.
+
+```cmd
+more file.txt
+```
+
+---
+
+# Copy Files
+
+## `copy`
+Copies files from one location to another.
+
+Example:
+```cmd
+copy test.txt test2.txt
+```
+
+---
+
+# Move Files
+
+## `move`
+Moves files between directories.
+
+Example:
+```cmd
+move test2.txt ..
+```
+
+---
+
+# Delete Files
+
+## `del` or `erase`
+Deletes files.
+
+Example:
+```cmd
+erase test2.txt
+```
+
+---
+
+# Wildcards
+
+## `*`
+Represents multiple files.
+
+Example:
+```cmd
+copy *.md C:\Markdown
+```
+
+---
+
+# Task and Process Management
+
+## `tasklist`
+Displays running processes.
+
+Example:
+```cmd
+tasklist
+```
+
+---
+
+# Filtering Processes
+
+Example:
+```cmd
+tasklist /FI "imagename eq sshd.exe"
+```
+
+---
+
+# Kill Process
+
+## `taskkill`
+Terminates a process using PID.
+
+Example:
+```cmd
+taskkill /PID 4567
+```
+
+---
+
+# Shutdown Commands
+
+## Shutdown System
+```cmd
+shutdown /s
+```
+
+## Restart System
+```cmd
+shutdown /r
+```
+
+## Abort Shutdown
+```cmd
+shutdown /a
+```
+
+---
+
+# Additional Useful Commands
+
+## `chkdsk`
+Checks disk for errors.
+
+```cmd
+chkdsk
+```
+
+## `driverquery`
+Displays installed drivers.
+
+```cmd
+driverquery
+```
+
+## `sfc /scannow`
+Scans and repairs corrupted system files.
+
+```cmd
+sfc /scannow
+```
+
+---
+
+# Important Tip
+
+## `/?`
+Displays help page for most commands.
+
+Example:
+```cmd
+ipconfig /?
+```
+
+---
+
+# Conclusion
+
+This room introduced:
+- Windows CLI basics
+- Networking commands
+- File and directory management
+- Task and process management
+- Shutdown and troubleshooting commands
+
+These commands are essential for system administration and cybersecurity fundamentals.
