@@ -1,1 +1,175 @@
+# Windows Command Line Basics
 
+## Overview
+This room covered the basics of using the Windows Command Line Interface (CLI) for system management, networking, file handling, and process management.
+
+---
+
+# GUI vs CLI
+
+## GUI (Graphical User Interface)
+- Easy to use
+- Mouse-based interaction
+- User-friendly for beginners
+
+## CLI (Command Line Interface)
+- Faster after practice
+- Keyboard-based interaction
+- Uses fewer system resources
+- Useful for automation and remote administration
+
+## Advantages of CLI
+- Lower resource usage
+- Faster execution
+- Easier automation using scripts
+- Convenient remote management using SSH
+
+---
+
+# Basic System Information Commands
+
+## `set`
+Displays environment variables and system paths.
+
+Example:
+```cmd
+set
+```
+
+## `ver`
+Shows Windows version information.
+
+Example:
+```cmd
+ver
+```
+
+## `systeminfo`
+Displays detailed system information:
+- Host name
+- OS version
+- Processor details
+- RAM details
+
+Example:
+```cmd
+systeminfo
+```
+
+## Other Useful Commands
+
+### `help`
+Displays help information for commands.
+
+```cmd
+help
+```
+
+### `cls`
+Clears the command prompt screen.
+
+```cmd
+cls
+```
+
+---
+
+# Viewing Long Output
+
+## `more`
+Displays output page by page.
+
+Example:
+```cmd
+driverquery | more
+```
+
+---
+
+# Network Troubleshooting Commands
+
+## `ipconfig`
+Displays:
+- IP Address
+- Subnet Mask
+- Default Gateway
+
+Example:
+```cmd
+ipconfig
+```
+
+## `ipconfig /all`
+Displays detailed network configuration:
+- MAC Address
+- DHCP
+- DNS information
+
+Example:
+```cmd
+ipconfig /all
+```
+
+---
+
+# Connectivity Testing
+
+## `ping`
+Checks if a target system is reachable.
+
+Example:
+```cmd
+ping example.com
+```
+
+---
+
+# Route Tracing
+
+## `tracert`
+Shows the route packets take to the destination.
+
+Example:
+```cmd
+tracert example.com
+```
+
+---
+
+# DNS Lookup
+
+## `nslookup`
+Finds the IP address of a domain.
+
+Example:
+```cmd
+nslookup example.com
+```
+
+---
+
+# Active Network Connections
+
+## `netstat`
+Displays active network connections and listening ports.
+
+Example:
+```cmd
+netstat
+```
+
+## Important Options
+
+| Option | Purpose |
+|--------|---------|
+| `-a` | Show all connections |
+| `-b` | Show executable/service |
+| `-o` | Show PID |
+| `-n` | Show numerical addresses |
+
+Example:
+```cmd
+netstat -abon
+```
+
+---
