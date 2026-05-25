@@ -1,1 +1,103 @@
+# PowerShell Basics and File Management
 
+## Overview
+Today I explored the fundamentals of PowerShell, including cmdlets, aliases, help commands, module management, and file system navigation. I also learned how PowerShell uses an object-oriented approach instead of plain text processing.
+
+---
+
+# Topics Covered
+
+## Introduction to PowerShell
+- PowerShell is a task automation and configuration management tool by Microsoft
+- Built on the .NET framework
+- Uses an object-oriented approach
+- Cross-platform support:
+  - Windows
+  - Linux
+  - macOS
+
+## History of PowerShell
+- Created to overcome limitations of `cmd.exe` and batch scripting
+- Developed by Jeffrey Snover
+- Released in 2006
+- PowerShell Core released in 2016
+
+---
+
+# PowerShell Objects
+- PowerShell works with objects instead of plain text
+- Objects contain:
+  - Properties
+  - Methods
+
+### Example
+- Car object:
+  - Properties:
+    - Color
+    - FuelLevel
+  - Methods:
+    - Drive()
+    - Refuel()
+
+---
+
+# Launching PowerShell
+
+## Start PowerShell from CMD
+```powershell
+powershell
+```
+
+- `PS` indicates PowerShell shell
+
+---
+
+# Cmdlets
+
+## Verb-Noun Syntax
+- PowerShell commands are called cmdlets
+- Follow `Verb-Noun` naming format
+
+### Examples
+```powershell
+Get-Content
+Set-Location
+```
+
+---
+
+# Important Cmdlets
+
+## Get-Command
+- Lists available cmdlets and functions
+
+```powershell
+Get-Command
+```
+
+### Filter Functions
+```powershell
+Get-Command -CommandType Function
+```
+
+---
+
+## Get-Help
+- Displays cmdlet help information
+
+```powershell
+Get-Help Get-Date
+```
+
+### Extra Help Options
+```powershell
+Get-Help Get-Date -examples
+Get-Help Get-Date -detailed
+Get-Help Get-Date -full
+Get-Help Get-Date -online
+```
+
+---
+
+
+- Windows enumeration and scripting
