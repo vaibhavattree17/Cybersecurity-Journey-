@@ -1,1 +1,136 @@
+# Aliases
 
+## View Aliases
+```powershell
+Get-Alias
+```
+
+### Common Aliases
+- `dir` → `Get-ChildItem`
+- `cd` → `Set-Location`
+- `echo` → `Write-Output`
+- `cat` → `Get-Content`
+
+---
+
+# Module Management
+
+## Find Modules
+```powershell
+Find-Module -Name "PowerShell*"
+```
+
+## Install Modules
+```powershell
+Install-Module -Name "PowerShellGet"
+```
+
+---
+
+# File System Navigation
+
+## View Files and Directories
+```powershell
+Get-ChildItem
+```
+
+### Specific Path
+```powershell
+Get-ChildItem -Path C:\Users
+```
+
+---
+
+## Change Directory
+```powershell
+Set-Location -Path ".\Documents"
+```
+
+---
+
+# Creating Files and Folders
+
+## Create Folder
+```powershell
+New-Item -Path ".\captain-cabin\captain-wardrobe" -ItemType "Directory"
+```
+
+## Create File
+```powershell
+New-Item -Path ".\captain-cabin\captain-wardrobe\captain-boots.txt" -ItemType "File"
+```
+
+---
+
+# Removing Files and Folders
+
+## Delete File
+```powershell
+Remove-Item -Path ".\captain-cabin\captain-wardrobe\captain-boots.txt"
+```
+
+## Delete Folder
+```powershell
+Remove-Item -Path ".\captain-cabin\captain-wardrobe"
+```
+
+---
+
+# Copying Files
+
+## Copy File
+```powershell
+Copy-Item -Path .\captain-cabin\captain-hat.txt -Destination .\captain-cabin\captain-hat2.txt
+```
+
+---
+
+# Reading File Contents
+
+## Display File Content
+```powershell
+Get-Content -Path ".\captain-hat.txt"
+```
+
+---
+
+# Important Commands Learned
+
+## List commands starting with Remove
+```powershell
+Get-Command -Name Remove*
+```
+
+## Alias equivalent of echo
+```powershell
+Write-Output
+```
+
+## Get examples for New-LocalUser
+```powershell
+Get-Help New-LocalUser -examples
+```
+
+## Alternative of Windows type command
+```powershell
+Get-Content
+```
+
+---
+
+# Key Learnings
+- PowerShell is object-oriented
+- Cmdlets follow Verb-Noun syntax
+- `Get-Help` is essential for learning commands
+- Aliases make PowerShell easier for CMD/Linux users
+- PowerShell simplifies file and directory management using unified cmdlets
+- Modules can extend PowerShell functionality
+
+# Cybersecurity Relevance
+PowerShell is heavily used in:
+- System administration
+- Automation
+- Ethical hacking
+- Active Directory management
+- Red team and blue team operations
+- Windows enumeration and scripting
