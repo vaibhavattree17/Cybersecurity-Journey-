@@ -22,7 +22,7 @@
 - Learned that text-based interface is faster and more powerful than GUI for many tasks.
 - Commands are used to interact with Linux system.
 
-### 4. Basic Linux Commands
+### 4. Basic Linux Command
 - `echo` → Displays text on screen.
 - `whoami` → Shows current username.
 - `ls` → Lists files and folders in current directory.
