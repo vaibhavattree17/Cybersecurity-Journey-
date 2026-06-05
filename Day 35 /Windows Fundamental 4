@@ -17,7 +17,7 @@ This lab focused on exploring important Windows administrative and troubleshooti
 ## Task 2: System Configuration and Advanced System Settings
 - Opened **System Configuration (MSConfig)**
 - Explored:
-  - Boot options
+  - Boot option
   - Startup services
   - System services
   - Startup programs
