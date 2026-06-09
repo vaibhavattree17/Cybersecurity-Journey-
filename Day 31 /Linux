@@ -6,7 +6,7 @@
 - Runs automatically
 
 ## Crontab
-- Stores scheduled job
+- Stores scheduled jobs
 - crontab -e → edit
 
 ## Format
