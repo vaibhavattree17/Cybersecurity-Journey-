@@ -6,7 +6,7 @@
 
 ## Layers of OS
 - User → Application → OS → Hardware
-- OS acts as the resource managers
+- OS acts as the resource manager
 
 ## Privilege Levels
 - Kernel Space: Full access to hardware 
