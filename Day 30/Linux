@@ -6,7 +6,7 @@
 - Remote → Local copy
 
 ## Examples
-- scp file user@IP:/paths
+- scp file user@IP:/path
 - scp user@IP:/path file
 
 
