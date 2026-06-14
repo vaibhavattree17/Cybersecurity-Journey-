@@ -2,7 +2,7 @@
 
 ## View Aliases
 ```powershell
-Get-Ali
+Get-Alias
 ```
 
 ### Common Aliases
