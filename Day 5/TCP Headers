@@ -1,6 +1,6 @@
 TCP Header
 
-Source Port → Random port chosen by sender (0–65535).
+Source Port → Random port chosen by sender (0–65535)
 
 Destination Port → IP address of receiver.
 
