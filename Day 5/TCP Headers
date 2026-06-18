@@ -2,7 +2,7 @@ TCP Header
 
 Source Port → Random port chosen by sender (0–65535).
 
-Destination Port → IP address of receiver
+Destination Port → IP address of receiver.
 
 Sequence Number → Random initial number for data sequence.
 
