@@ -5,7 +5,7 @@
 Get-Alias
 ```
 
-### Common Aliases
+### Common Aliase
 - `dir` → `Get-ChildItem`
 - `cd` → `Set-Location`
 - `echo` → `Write-Output`
