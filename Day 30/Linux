@@ -10,7 +10,7 @@
 - scp user@IP:/path files
 
 
-# Python HTTP Server
+# Python HTTP Servers
 - Module: http.server
 - Used to create simple web server
 
