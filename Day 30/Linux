@@ -15,7 +15,7 @@
 - Used to create simple web server
 
 ## Start Server
-- python3 -m http.server
+- python3 -m http.servers
 
 ## Notes
 - Runs on port 8000 by default
