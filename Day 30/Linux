@@ -7,7 +7,7 @@
 
 ## Examples
 - scp file user@IP:/paths
-- scp user@IP:/path file
+- scp user@IP:/path files
 
 
 # Python HTTP Server
