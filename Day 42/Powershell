@@ -1,1 +1,403 @@
+# PowerShell Notes (Tasks 5–8)
 
+## 📌 Task 5 – Piping, Filtering & Sorting Data
+
+### **Piping (`|`)**
+- Passes the output of one command as the input to another.
+- Unlike CMD, **PowerShell passes objects instead of plain text**.
+
+**Example**
+```powershell
+Get-ChildItem | Sort-Object Length
+```
+
+---
+
+### **Get-ChildItem**
+- Lists files and folders in the current directory.
+- Similar to:
+  - **Windows CMD:** `dir`
+  - **Linux:** `ls`
+
+**Example**
+```powershell
+Get-ChildItem
+```
+
+---
+
+### **Sort-Object**
+- Sorts objects based on a specified property.
+
+**Example**
+```powershell
+Get-ChildItem | Sort-Object Name
+```
+
+Sort by file size:
+
+```powershell
+Get-ChildItem | Sort-Object Length
+```
+
+---
+
+### **Where-Object**
+- Filters objects based on conditions.
+
+**Example (Show only .txt files)**
+```powershell
+Get-ChildItem | Where-Object Extension -eq ".txt"
+```
+
+**Example (Files starting with "ship")**
+```powershell
+Get-ChildItem | Where-Object Name -like "ship*"
+```
+
+---
+
+### **Comparison Operators**
+
+| Operator | Meaning |
+|----------|---------|
+| `-eq` | Equal |
+| `-ne` | Not Equal |
+| `-gt` | Greater Than |
+| `-ge` | Greater Than or Equal |
+| `-lt` | Less Than |
+| `-le` | Less Than or Equal |
+| `-like` | Wildcard Match |
+
+---
+
+### **Select-Object**
+- Displays only selected properties.
+- Can also limit the number of objects returned.
+
+**Example**
+```powershell
+Get-ChildItem | Select-Object Name, Length
+```
+
+Show only first 5 objects:
+
+```powershell
+Get-Process | Select-Object -First 5
+```
+
+---
+
+### **Select-String**
+- Searches for text inside files.
+- Similar to:
+  - **Linux:** `grep`
+  - **CMD:** `findstr`
+
+**Example**
+```powershell
+Select-String -Path .\captain-hat.txt -Pattern "hat"
+```
+
+- Supports **Regular Expressions (Regex).**
+
+---
+
+### **Finding the Largest File**
+
+```powershell
+Get-ChildItem |
+Sort-Object Length -Descending |
+Select-Object -First 1
+```
+
+---
+
+# 📌 Task 6 – System & Network Information
+
+## **Get-ComputerInfo**
+
+Displays complete system information.
+
+```powershell
+Get-ComputerInfo
+```
+
+**Includes**
+- Windows Version
+- Build Number
+- BIOS Details
+- Hardware Information
+- Operating System Details
+
+---
+
+## **Get-LocalUser**
+
+Lists all local users.
+
+```powershell
+Get-LocalUser
+```
+
+Displays:
+- Username
+- Account Status
+- Description
+
+---
+
+## **Get-NetIPConfiguration**
+
+Shows active network configuration.
+
+```powershell
+Get-NetIPConfiguration
+```
+
+Displays:
+- IPv4 Address
+- Default Gateway
+- DNS Server
+- Network Adapter
+
+---
+
+## **Get-NetIPAddress**
+
+Lists all IP addresses configured on the system.
+
+```powershell
+Get-NetIPAddress
+```
+
+Displays:
+- IPv4
+- IPv6
+- Loopback Addresses
+- Interface Information
+
+---
+
+# 📌 Task 7 – Real-Time System Analysis
+
+## **Get-Process**
+
+Lists all running processes.
+
+```powershell
+Get-Process
+```
+
+Displays:
+- Process Name
+- Process ID (PID)
+- CPU Usage
+- Memory Usage
+
+---
+
+## **Get-Service**
+
+Lists Windows services.
+
+```powershell
+Get-Service
+```
+
+Shows:
+- Running Services
+- Stopped Services
+- Paused Services
+
+Useful during:
+- Incident Response
+- Malware Analysis
+- Troubleshooting
+
+---
+
+## **Get-NetTCPConnection**
+
+Displays active TCP connections.
+
+```powershell
+Get-NetTCPConnection
+```
+
+Shows:
+- Local Address
+- Remote Address
+- Local Port
+- Remote Port
+- Connection State
+- Owning Process
+
+Common States:
+- Listen
+- Established
+- TimeWait
+
+Useful for detecting suspicious network connections.
+
+---
+
+## **Get-FileHash**
+
+Generates the cryptographic hash of a file.
+
+```powershell
+Get-FileHash file.txt
+```
+
+Default Algorithm:
+- **SHA256**
+
+Used for:
+- File Integrity Verification
+- Malware Detection
+- Digital Forensics
+
+---
+
+## **Alternate Data Streams (ADS)**
+
+Displays hidden data streams attached to files.
+
+```powershell
+Get-Item -Path file.txt -Stream *
+```
+
+Default stream:
+
+```
+:$DATA
+```
+
+Used by attackers to hide malicious content.
+
+---
+
+# 📌 Task 8 – PowerShell Scripting
+
+## **What is PowerShell Scripting?**
+
+A PowerShell script is a text file containing multiple commands that execute automatically.
+
+**Advantages**
+- Automation
+- Saves Time
+- Reduces Human Errors
+- Performs Repetitive Tasks
+
+---
+
+## **Cybersecurity Applications**
+
+### 🔵 Blue Team
+
+- Incident Response
+- Threat Hunting
+- Malware Analysis
+- IOC Detection
+- Log Analysis
+
+---
+
+### 🔴 Red Team
+
+- Enumeration
+- Remote Command Execution
+- Payload Execution
+- Attack Automation
+- Penetration Testing
+
+---
+
+### 🖥️ System Administration
+
+- Remote Management
+- Network Administration
+- Configuration Management
+- Security Automation
+
+---
+
+## **Invoke-Command**
+
+Executes commands on remote computers.
+
+Run a command remotely:
+
+```powershell
+Invoke-Command -ComputerName Server01 -ScriptBlock { Get-Culture }
+```
+
+Run a PowerShell script remotely:
+
+```powershell
+Invoke-Command -FilePath C:\scripts\test.ps1 -ComputerName Server01
+```
+
+---
+
+## **Get-Help**
+
+Displays documentation for PowerShell cmdlets.
+
+General Help:
+
+```powershell
+Get-Help Get-Process
+```
+
+Show Examples:
+
+```powershell
+Get-Help Invoke-Command -Examples
+```
+
+Detailed Help:
+
+```powershell
+Get-Help Get-Service -Detailed
+```
+
+---
+
+# 📝 Quick Revision
+
+| Cmdlet | Purpose |
+|---------|----------|
+| **Get-ChildItem** | List files & folders |
+| **Sort-Object** | Sort output |
+| **Where-Object** | Filter objects |
+| **Select-Object** | Select specific properties |
+| **Select-String** | Search text in files |
+| **Get-ComputerInfo** | System information |
+| **Get-LocalUser** | Local users |
+| **Get-NetIPConfiguration** | Active network configuration |
+| **Get-NetIPAddress** | All IP addresses |
+| **Get-Process** | Running processes |
+| **Get-Service** | Windows services |
+| **Get-NetTCPConnection** | Active TCP connections |
+| **Get-FileHash** | Generate file hash |
+| **Get-Item -Stream \*** | View Alternate Data Streams |
+| **Invoke-Command** | Execute commands remotely |
+| **Get-Help** | View cmdlet documentation |
+
+---
+
+# 🎯 Key Takeaways
+
+- **PowerShell works with objects, not plain text.**
+- **Pipelines (`|`)** connect multiple cmdlets.
+- **Where-Object** filters data.
+- **Sort-Object** sorts output.
+- **Select-Object** displays only required properties.
+- **Select-String** searches text inside files.
+- **Get-Process** and **Get-Service** monitor system activity.
+- **Get-NetTCPConnection** helps identify active network connections.
+- **Get-FileHash** verifies file integrity.
+- **Invoke-Command** enables remote administration and automation.
+- **PowerShell scripting is a fundamental skill for System Administrators, Blue Teams, and Red Teams.**
