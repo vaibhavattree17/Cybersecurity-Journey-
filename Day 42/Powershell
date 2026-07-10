@@ -1,6 +1,6 @@
 # PowerShell Notes (Tasks 5–8)
 
-## 📌 Task 5 – Piping, Filtering & Sorting Dat
+## 📌 Task 5 – Piping, Filtering & Sorting Data
 
 ### **Piping (`|`)**
 - Passes the output of one command as the input to another.
