@@ -1,6 +1,6 @@
  # Web Fundamentals & Architecture
 
-## How Web Request Works
+## How Web Request Work
 - Browser sends request to website
 - Needs server IP address → uses DNS
 
