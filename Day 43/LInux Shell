@@ -1,1 +1,330 @@
+# Linux Shells & Shell Scripting Notes
 
+## What is a Shell?
+A **Shell** is a command-line interpreter that acts as an interface between the **user** and the **Linux Kernel**. It accepts commands from the user and executes them.
+
+---
+
+# Useful Commands
+
+## Check Current Shell
+```bash
+echo $SHELL
+```
+
+## List Available Shells
+```bash
+cat /etc/shells
+```
+
+## Switch to Another Shell
+```bash
+zsh
+```
+
+## Change Default Shell
+```bash
+chsh -s /usr/bin/zsh
+```
+
+---
+
+# Types of Linux Shells
+
+## 1. Bash (Bourne Again Shell)
+
+### Features
+- Default shell in most Linux distributions.
+- Excellent for shell scripting.
+- Supports command history.
+- Supports tab completion.
+- Stable and widely used.
+
+### Advantages
+- Large community support.
+- Extensive documentation.
+- Best shell for automation.
+
+---
+
+## 2. Fish (Friendly Interactive Shell)
+
+### Features
+- Beginner-friendly.
+- Auto-corrects commands.
+- Built-in syntax highlighting.
+- Supports themes and customization.
+- Smart tab completion.
+
+### Advantages
+- Easy to use.
+- Modern interface.
+- Better user experience.
+
+---
+
+## 3. Zsh (Z Shell)
+
+### Features
+- Modern shell.
+- Advanced tab completion.
+- Auto-correction.
+- Supports plugins.
+- Highly customizable.
+
+### Advantages
+- Powerful scripting.
+- Compatible with Bash scripts.
+- Works well with Oh My Zsh.
+
+---
+
+# Bash vs Fish vs Zsh
+
+| Feature | Bash | Fish | Zsh |
+|----------|------|------|------|
+| Default Shell | ✅ | ❌ | ❌ |
+| Scripting | Excellent | Limited | Excellent |
+| Tab Completion | Basic | Advanced | Advanced |
+| Syntax Highlighting | Plugin Required | Built-in | Plugin Required |
+| Customization | Basic | Good | Excellent |
+| Beginner Friendly | Medium | Excellent | Good |
+
+---
+
+# Shell Scripting
+
+## What is a Shell Script?
+
+A **Shell Script** is a file containing multiple Linux commands that are executed one after another automatically.
+
+### Extension
+```text
+.sh
+```
+
+---
+
+# Creating a Script
+
+```bash
+nano first_script.sh
+```
+
+Save the file:
+
+- Ctrl + X
+- Y
+- Enter
+
+---
+
+# Shebang
+
+Every shell script should begin with a **Shebang**.
+
+```bash
+#!/bin/bash
+```
+
+### Purpose
+- Specifies which interpreter will execute the script.
+- Here, Bash is the interpreter.
+
+---
+
+# Variables
+
+Variables are used to store data.
+
+### Example
+
+```bash
+name="John"
+echo $name
+```
+
+### Taking User Input
+
+```bash
+read name
+```
+
+### Example
+
+```bash
+#!/bin/bash
+
+echo "Enter your name:"
+read name
+
+echo "Welcome, $name"
+```
+
+---
+
+# Giving Execute Permission
+
+```bash
+chmod +x first_script.sh
+```
+
+### Purpose
+Makes the script executable.
+
+---
+
+# Running a Script
+
+```bash
+./first_script.sh
+```
+
+### Why use `./`?
+
+- `.` means current directory.
+- `/` tells Linux to execute the file from the current directory.
+
+---
+
+# Loops
+
+## Purpose
+
+Loops execute the same block of code multiple times.
+
+### For Loop Example
+
+```bash
+#!/bin/bash
+
+for i in {1..10}
+do
+    echo $i
+done
+```
+
+### Keywords
+
+- `for` → Starts loop
+- `do` → Loop body begins
+- `done` → Loop ends
+
+---
+
+# Conditional Statements
+
+Conditional statements execute code based on a condition.
+
+### Syntax
+
+```bash
+if [ condition ]; then
+    commands
+else
+    commands
+fi
+```
+
+### Example
+
+```bash
+#!/bin/bash
+
+echo "Enter your name:"
+read name
+
+if [ "$name" = "John" ]; then
+    echo "Access Granted"
+else
+    echo "Access Denied"
+fi
+```
+
+### Keywords
+
+- `if`
+- `then`
+- `else`
+- `fi`
+
+---
+
+# Comments
+
+Comments improve code readability.
+
+### Syntax
+
+```bash
+# This is a comment
+```
+
+Comments are ignored during execution.
+
+---
+
+# Authentication Script (Example)
+
+### Workflow
+
+1. Ask Username
+2. Ask Company Name
+3. Ask PIN
+4. Compare entered values
+5. If all values match:
+   - Authentication Successful
+6. Otherwise:
+   - Authentication Denied
+
+---
+
+# Important Commands
+
+| Command | Description |
+|----------|-------------|
+| `echo $SHELL` | Show current shell |
+| `cat /etc/shells` | List installed shells |
+| `nano file.sh` | Create/Edit script |
+| `chmod +x file.sh` | Give execute permission |
+| `./file.sh` | Execute script |
+| `read variable` | Take user input |
+| `echo` | Display output |
+
+---
+
+# Key Points
+
+- Shell is the interface between user and kernel.
+- Bash is the default shell in most Linux systems.
+- Fish is beginner-friendly.
+- Zsh is highly customizable.
+- Shell scripts automate repetitive tasks.
+- `.sh` is the standard Bash script extension.
+- `#!/bin/bash` specifies the Bash interpreter.
+- Variables store values.
+- `read` accepts user input.
+- `echo` prints output.
+- `chmod +x` gives execute permission.
+- `./script.sh` executes a script from the current directory.
+- `for` loops repeat tasks.
+- `if-else` performs decision-making.
+- `#` is used for comments.
+
+---
+
+# Interview / Viva Questions
+
+1. What is a Shell?
+2. What is Bash?
+3. What is the difference between Bash, Fish, and Zsh?
+4. What is Shell Scripting?
+5. What is Shebang?
+6. Why do we use `.sh` files?
+7. What is a variable?
+8. How do you take user input?
+9. What is a loop?
+10. What is an `if-else` statement?
+11. Why is `chmod +x` required?
+12. Why do we execute scripts using `./`?
+13. What are comments in Shell Scripting?
