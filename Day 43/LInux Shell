@@ -1,4 +1,4 @@
-# Linux Shells & Shell Scripting Notes
+# Linux Shells & Shell Scripting Note
 
 ## What is a Shell?
 A **Shell** is a command-line interpreter that acts as an interface between the **user** and the **Linux Kernel**. It accepts commands from the user and executes them.
