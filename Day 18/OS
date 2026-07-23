@@ -8,7 +8,7 @@
 - User → Application → OS → Hardware
 - OS acts as the resource manager
 
-## Privilege Levels
+## Privilege Level
 - Kernel Space: Full access to hardware 
 - User Space: Limited access (uses system calls)
  
