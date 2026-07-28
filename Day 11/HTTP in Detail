@@ -1,7 +1,7 @@
 # HTTP & HTTPS Fundamental
 
 ## HTTP (HyperText Transfer Protocol)
-- Used when you visit websites
+- Used when you visit website
 - Developed by Tim Berners-Lee (1989–1991)
 - Set of rules for communication between client (browser) and servers
 - Transfers data like:
